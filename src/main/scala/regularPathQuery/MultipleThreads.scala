@@ -10,26 +10,28 @@ import scala.collection.immutable.HashSet
 import org.apache.spark.rdd.RDD
 import org.apache.spark.graphx.PartitionStrategy._
 object MultipleThreads {
+  case class SrcId(srcid : Long) 
   case class DstId(dstid : Long) 
   case class arrow(srcid: Long,label: String)
   var path = "";
   var tableName = "testgraph";
+  var keyspace = "";
   def multipleThreads(workerNum:Int):Unit = {
-      val tableName = "graph";
       val sparkConf = new SparkConf().setAppName("CassandraMultipleThread : "+path).setMaster("spark://ubuntu:7077")
       .set("spark.cassandra.connection.host", "127.0.0.1")
       val sc = new SparkContext(sparkConf)
-      println("start !!!")
+      println("------------------------------- start --------------------------")
       val auto = GraphReader.automata(sc,path)
       val automata = auto.edges
       val finalState = HashSet(auto.vertices.count().toLong)
       val startTime = System.currentTimeMillis 
       var ans : Array[VertexId] = Array()
       var currentTrans = automata.filter(e=>e.srcId==1L)
-      var currentStates : RDD[(VertexId,VertexId)] = sc.parallelize(Array(1L))
-                                .cartesian(sc.parallelize(1L to GraphReader.getGraphSize(sc,tableName)))
-                                .repartition(3)
-                                .cache()
+      var currentStates : RDD[(VertexId,VertexId)] = currentTrans
+      .cartesian(GraphReader.firstEdges(sc, keyspace, tableName, currentTrans.map(v=>v.attr).collect()))
+      .filter(s=>s._2._2==s._1.attr).map(f=>(f._1.srcId,f._2._1))
+      .repartition(10)
+      .cache()
       var visitedStates : HashSet[(VertexId,VertexId)] = HashSet()
       var temp = currentStates.collect()
       var i = 0
@@ -43,17 +45,20 @@ object MultipleThreads {
 //        println("current States:")
         ans = ans ++ temp.filter(v=>finalState.contains(v._1)).map(v=>v._2)
         val Trans = currentTrans.collect()
+        val labelset = "("+Trans.map(v=>"'"+v.attr+"'").mkString(",")+")"
         println("Answer Size : "+ans.size)
-        val nextStates = currentStates.flatMap(s=>Trans.map { e => (s,e) })
-                        .filter(f=>f._1._1==f._2.srcId)
-                        .map(v=>arrow(v._1._2,v._2.attr)).repartitionByCassandraReplica("mykeyspace",tableName)
-                        .joinWithCassandraTable("mykeyspace",tableName)
+        val nextStates = currentStates
+                        .map(v=>SrcId(v._2)).repartitionByCassandraReplica(keyspace,tableName)
+                        .joinWithCassandraTable(keyspace,tableName)
+                        .where("label IN "+labelset)
                         .map(v=>v._2).flatMap(s=>Trans.map { e => (s,e) })
                         .filter(tuple=>{
                           val Automata = tuple._2
                           val edge = tuple._1
                           Automata.attr.equals(edge.getString("label"))&&visitedStates.contains((Automata.srcId,edge.getLong("srcid")))
-                        }).flatMap(row=>row._1.get[Set[Long]]("dstid").map(v=>(row._2.dstId,v))).filter(!visitedStates.contains(_)).distinct().cache()
+                        }).flatMap(row=>row._1.get[String]("dstid").split(":").map(v=>(row._2.dstId,v.toLong)) ).filter(!visitedStates.contains(_))
+                        .distinct()
+                        .cache()
 //        println("iteration : "+i+ " count : "+nextStates.collect())
         val newtemp = nextStates.collect()
         temp = newtemp
@@ -66,10 +71,12 @@ object MultipleThreads {
       ans.map(v=>println("vertex reached!!! "+v))
       println("number of pairs : "+ans.size)
       println("time : "+(endTime-startTime))
+      println("-------------------------------------------------------------")
     }
     def main(args:Array[String]){
       path = args(0)
-      tableName = args(1)
-      multipleThreads(3)
+      tableName = args(2)
+      keyspace = args(1)
+      multipleThreads(args(3).toInt)
     }
 }

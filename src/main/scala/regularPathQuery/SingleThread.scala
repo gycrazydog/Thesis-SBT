@@ -10,37 +10,77 @@ import scala.collection.immutable.HashSet
 import org.apache.spark.rdd.RDD
 import org.apache.spark.graphx.PartitionStrategy._
 object SingleThread {
+  case class SrcId(srcid : Long) 
+  case class DstId(dstid : Long) 
+  case class arrow(srcid: Long,label: String)
+  var path = "";
+  var tableName = "testgraph";
+  var keyspace = "";
   def singleThread():Unit = {
-//      val sparkConf = new SparkConf().setAppName("HBaseMultipleThread").setMaster("local")
-//      .set("spark.cassandra.connection.host", "127.0.0.1")
-//      val sc = new SparkContext(sparkConf)
-//      println("start !!!")
-//      val automata = GraphReader.automata(sc).edges
-//      val finalState = HashSet(3L)
-//      val startTime = System.currentTimeMillis 
-//      var ans : Array[VertexId] = Array()
-//      var currentTrans = automata.filter(e=>e.srcId==1L)
-//      var currentStates : RDD[(VertexId,VertexId)] = sc.parallelize(Array(1L)).cartesian(sc.parallelize(1L to GraphReader.getGraphSize(sc), 3))
-//      currentStates.cache()
-//      var visitedStates : HashSet[(VertexId,VertexId)] = HashSet()
-//      var i = 0
-//      while(currentStates.count()>0){
-//        visitedStates ++= currentStates.collect()
-//        println("visited States : "+visitedStates.size)
-//        i = i+1
-//        println("iteration:"+i)
-////        println("current States:")
-//        ans = ans ++ currentStates.filter(v=>finalState.contains(v._1)).map(v=>v._2).collect()
-//        currentStates = GraphReader.getNextStates(sc, currentStates.cartesian(currentTrans).filter(f=>f._1._1==f._2.srcId).map(f=>(f._1._2,f._2.attr)), currentTrans,visitedStates)
-//        currentStates.cache()
-//        currentTrans = currentTrans.cartesian(automata).filter(v=>v._1.dstId==v._2.srcId).map(v=>v._2)
-//        println("finishing calculating currentStates!")
-//      }
-//      val endTime = System.currentTimeMillis
-//      ans.map(v=>println("vertex reached!!! "+v))
-//      println("time : "+(endTime-startTime))
+      val sparkConf = new SparkConf().setAppName("CassandraSingleThread : "+path).setMaster("spark://ubuntu:7077")
+      .set("spark.cassandra.connection.host", "127.0.0.1")
+      val sc = new SparkContext(sparkConf)
+      println("start !!!")
+      val auto = GraphReader.automata(sc,path)
+      val automata = auto.edges.repartition(1)
+      val finalState = HashSet(auto.vertices.count().toLong)
+      val startTime = System.currentTimeMillis 
+      var ans : Array[VertexId] = Array()
+      var currentTrans = automata.filter(e=>e.srcId==1L)
+      var currentStates : RDD[(VertexId,VertexId)] = currentTrans
+      .cartesian(GraphReader.firstEdges(sc, keyspace, tableName, currentTrans.map(v=>v.attr).collect()))
+      .filter(s=>s._2._2==s._1.attr).map(f=>(f._1.srcId,f._2._1))
+      .repartition(1)
+      .cache()
+      var visitedStates : HashSet[(VertexId,VertexId)] = HashSet()
+      var temp = currentStates.collect()
+      var i = 0
+      while(temp.size>0){
+        visitedStates ++= temp
+        println("CUrrent Partitions : "+currentStates.partitions.length)
+        println("Current States : "+temp.size)
+        println("Current Trans : "+currentTrans.count())
+        i = i+1
+        println("iteration:"+i)
+//        println("current States:")
+        ans = ans ++ temp.filter(v=>finalState.contains(v._1)).map(v=>v._2)
+        val Trans = currentTrans.collect()
+        val labelset = "("+Trans.map(v=>"'"+v.attr+"'").mkString(",")+")"
+        println("Answer Size : "+ans.size)
+        val nextStates = currentStates
+                        .map(v=>SrcId(v._2))
+                        .joinWithCassandraTable(keyspace,tableName)
+                        .where("label IN "+labelset)
+                        .map(v=>v._2).flatMap(s=>Trans.map { e => (s,e) })
+                        .filter(tuple=>{
+                          val Automata = tuple._2
+                          val edge = tuple._1
+                          Automata.attr.equals(edge.getString("label"))&&visitedStates.contains((Automata.srcId,edge.getLong("srcid")))
+                        }).flatMap(row=>row._1.get[String]("dstid").split(":").map(v=>(row._2.dstId,v.toLong)) ).filter(!visitedStates.contains(_))
+                        .distinct()
+                        .cache()
+//        println("iteration : "+i+ " count : "+nextStates.collect())
+        val newtemp = nextStates.collect()
+        temp = newtemp
+        currentStates = nextStates
+        val nextTrans = currentTrans.cartesian(automata).filter(v=>v._1.dstId==v._2.srcId).map(v=>v._2).distinct().cache()
+        currentTrans = nextTrans
+        println("finishing calculating currentStates!")
+      }
+      val endTime = System.currentTimeMillis
+      ans.map(v=>println("vertex reached!!! "+v))
+      println("number of pairs : "+ans.size)
+      println("time : "+(endTime-startTime))
+      println("-------------------------------------------------------------")
     }
+  case class key(key: Int)
     def main(args:Array[String]){
-      singleThread
+//      var visitedStates : HashSet[(VertexId,VertexId)] = HashSet()
+//      visitedStates+=((1L,3L))
+//      println(visitedStates.contains((2L,3L)))
+      path = args(0)
+      tableName = args(2)
+      keyspace = args(1)
+      singleThread()
     }
 }

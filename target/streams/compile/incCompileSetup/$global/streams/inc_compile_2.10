@@ -19,15 +19,17 @@ name hashing:
 1 items
 0 -> true
 products:
-68 items
+103 items
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$1.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$10$$anonfun$apply$1.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$10.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$11.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$2.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$3.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$4.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$5.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$6.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$7.class
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$8$$anonfun$apply$1.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$8.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$9.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$typecreator1$1.class
@@ -55,17 +57,18 @@ products:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphWriter.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphWriter.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$1.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$10$$anonfun$apply$2.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$10.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$11.class
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$2$$anonfun$apply$1.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$12.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$13.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$2.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$3.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$4.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$5.class
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$6$$anonfun$apply$2.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$6.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$7.class
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$8$$anonfun$apply$3.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$8$$anonfun$apply$1.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$8.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$9.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$multipleThreads$1.class
@@ -76,12 +79,44 @@ products:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$DstId$.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$DstId.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$SrcId$.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$SrcId.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$arrow$.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$arrow.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/firstSparkApp/RDDTest$$anonfun$1.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/firstSparkApp/RDDTest$.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/firstSparkApp/RDDTest.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$1.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$10$$anonfun$apply$2.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$10.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$11.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$12.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$13.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$2.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$3.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$4.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$5.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$6.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$7.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$8$$anonfun$apply$1.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$8.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$9.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$singleThread$1.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$singleThread$2.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$singleThread$3.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$typecreator1$1.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$DstId$.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$DstId.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$SrcId$.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$SrcId.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$arrow$.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$arrow.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$key$.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$key.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread.class
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test$$anonfun$main$1.class
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test$$anonfun$1.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test$.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test$EdgeLabel$.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test$EdgeLabel.class
@@ -89,7 +124,7 @@ products:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test$SrcId.class
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> /home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test.class
 binary dependencies:
-27 items
+31 items
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> /root/.ivy2/cache/com.datastax.spark/spark-cassandra-connector_2.10/jars/spark-cassandra-connector_2.10-1.2.1.jar
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> /root/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.2.2.jar
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> /root/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.2.2.jar
@@ -108,11 +143,15 @@ binary dependencies:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /root/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.5.jar
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /usr/lib/jvm/jdk1.7.0_79/jre/lib/rt.jar
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> /root/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.2.2.jar
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> /root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> /usr/lib/jvm/jdk1.7.0_79/jre/lib/rt.jar
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /root/.ivy2/cache/com.datastax.spark/spark-cassandra-connector_2.10/jars/spark-cassandra-connector_2.10-1.2.1.jar
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /root/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.2.2.jar
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /root/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.2.2.jar
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /root/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.5.jar
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /usr/lib/jvm/jdk1.7.0_79/jre/lib/rt.jar
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> /root/.ivy2/cache/com.datastax.spark/spark-cassandra-connector_2.10/jars/spark-cassandra-connector_2.10-1.2.1.jar
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> /root/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.2.2.jar
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> /root/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.2.2.jar
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> /root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar
@@ -126,8 +165,9 @@ public inherited source dependencies:
 public inherited external dependencies:
 0 items
 member reference internal dependencies:
-1 items
+2 items
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala
 member reference external dependencies:
 0 items
 inheritance internal dependencies:
@@ -135,10 +175,13 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-68 items
+103 items
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> regularPathQuery.GraphReader
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> regularPathQuery.GraphReader$
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> regularPathQuery.GraphReader$$anonfun$1
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> regularPathQuery.GraphReader$$anonfun$10
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> regularPathQuery.GraphReader$$anonfun$10$$anonfun$apply$1
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> regularPathQuery.GraphReader$$anonfun$11
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> regularPathQuery.GraphReader$$anonfun$2
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> regularPathQuery.GraphReader$$anonfun$3
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> regularPathQuery.GraphReader$$anonfun$4
@@ -146,7 +189,6 @@ class names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> regularPathQuery.GraphReader$$anonfun$6
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> regularPathQuery.GraphReader$$anonfun$7
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> regularPathQuery.GraphReader$$anonfun$8
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> regularPathQuery.GraphReader$$anonfun$8$$anonfun$apply$1
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> regularPathQuery.GraphReader$$anonfun$9
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> regularPathQuery.GraphReader$$typecreator1$1
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> regularPathQuery.GraphReader$$typecreator2$1
@@ -174,17 +216,18 @@ class names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$anonfun$1
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$anonfun$10
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$anonfun$10$$anonfun$apply$2
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$anonfun$11
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$anonfun$12
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$anonfun$13
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$anonfun$2
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$anonfun$2$$anonfun$apply$1
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$anonfun$3
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$anonfun$4
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$anonfun$5
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$anonfun$6
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$anonfun$6$$anonfun$apply$2
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$anonfun$7
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$anonfun$8
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$anonfun$8$$anonfun$apply$3
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$anonfun$8$$anonfun$apply$1
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$anonfun$9
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$anonfun$multipleThreads$1
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$anonfun$multipleThreads$2
@@ -193,19 +236,51 @@ class names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$$typecreator2$1
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$DstId
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$DstId$
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$SrcId
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$SrcId$
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$arrow
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> regularPathQuery.MultipleThreads$arrow$
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> firstSparkApp.RDDTest
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> firstSparkApp.RDDTest$
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> firstSparkApp.RDDTest$$anonfun$1
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$$anonfun$1
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$$anonfun$10
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$$anonfun$10$$anonfun$apply$2
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$$anonfun$11
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$$anonfun$12
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$$anonfun$13
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$$anonfun$2
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$$anonfun$3
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$$anonfun$4
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$$anonfun$5
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$$anonfun$6
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$$anonfun$7
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$$anonfun$8
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$$anonfun$8$$anonfun$apply$1
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$$anonfun$9
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$$anonfun$singleThread$1
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$$anonfun$singleThread$2
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$$anonfun$singleThread$3
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$$typecreator1$1
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$DstId
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$DstId$
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$SrcId
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$SrcId$
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$arrow
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$arrow$
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$key
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery.SingleThread$key$
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> regularPathQuery.Test
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> regularPathQuery.Test$
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> regularPathQuery.Test$$anonfun$main$1
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> regularPathQuery.Test$$anonfun$1
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> regularPathQuery.Test$EdgeLabel
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> regularPathQuery.Test$EdgeLabel$
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> regularPathQuery.Test$SrcId
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> regularPathQuery.Test$SrcId$
 used names:
-646 items
+863 items
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> $m
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> $m$untyped
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> $typecreator1
@@ -214,6 +289,7 @@ used names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> $typecreator4
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> $u
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> &&
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> +
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> <init>
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> ==
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> AbstractFunction1
@@ -306,7 +382,9 @@ used names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> isInstanceOf
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> javaSerializableAsValidRDDType
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> joinWithCassandraTable
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> keyspace
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> label
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> labelset
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> length
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> line
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> longHash
@@ -317,6 +395,7 @@ used names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> materializeTypeTag
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> max_id
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> mix
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> mkString
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> mutable
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> org
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> package
@@ -328,6 +407,7 @@ used names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> qual$3
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> qual$4
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> qual$5
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> qual$6
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> rdd
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> reader
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> refArrayOps
@@ -339,6 +419,7 @@ used names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> runtimeMirror
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> sc
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> scala
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> select
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> set
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> setAppName
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> setConverter
@@ -357,6 +438,7 @@ used names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> to
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> toArray
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> toLong
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> toNamedColumnRef
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> toRDDFunctions
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> toSparkContextFunctions
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> toString
@@ -367,6 +449,7 @@ used names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> types
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> universe
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> v
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> where
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> wrapRefArray
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> wrapUnitArray
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> writer
@@ -419,7 +502,14 @@ used names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> x$52
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> x$53
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> x$54
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> x$55
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> x$56
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> x$57
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> x$58
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> x$59
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> x$6
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> x$60
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> x$61
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> x$7
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> x$8
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> x$9
@@ -566,7 +656,6 @@ used names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> HashSet
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> Int
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> Long
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> LongConverter
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> Mirror
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> MultipleThreads
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> None
@@ -580,12 +669,13 @@ used names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> RowWriterFactory
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> ScalaRunTime
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> Serializable
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> Set
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> Singleton
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> SparkConf
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> SparkContext
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> SrcId
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> Statics
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> String
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> StringConverter
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> System
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> Trans
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> Tuple2
@@ -610,6 +700,7 @@ used names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> asInstanceOf
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> asType
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> attr
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> augmentString
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> auto
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> automata
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> cache
@@ -640,11 +731,11 @@ used names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> filter
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> finalState
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> finalizeHash
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> firstEdges
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> flatMap
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> get
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> getClass
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> getClassLoader
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> getGraphSize
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> getLong
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> getString
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> graphx
@@ -654,25 +745,27 @@ used names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> java
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> javaSerializableAsValidRDDType
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> joinWithCassandraTable
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> keyspace
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> keyspace_=
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> label
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> labelset
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> lang
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> length
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> longArrayOps
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> longHash
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> longWrapper
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> map
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> mapper
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> materializeClassTag
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> materializeTypeTag
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> math
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> mix
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> mkString
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> multipleThreads
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> newtemp
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> nextStates
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> nextTrans
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> org
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> package
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> parallelize
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> partitions
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> path
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> path_=
@@ -695,11 +788,11 @@ used names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> scala
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> set
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> setAppName
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> setConverter
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> setMaster
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> size
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> spark
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> sparkConf
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> split
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> srcId
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> srcid
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> startTime
@@ -707,7 +800,7 @@ used names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> tableName
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> tableName_=
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> temp
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> to
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> toInt
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> toLong
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> toRDDFunctions
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> toString
@@ -720,9 +813,9 @@ used names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> v
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> vertices
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> visitedStates
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> where
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> while$1
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> workerNum
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> wrapLongArray
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> writer
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> x$10
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> x$11
@@ -750,31 +843,239 @@ used names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> x$8
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> x$9
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> ||
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> <init>
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> AnyRef
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> Array
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> ClassTag
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> Int
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> Predef
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> RDDTest
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> SparkConf
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> SparkContext
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> String
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> Unit
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> apache
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> apply
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> com
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> connector
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> count
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> datastax
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> firstSparkApp
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> ids
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> intWrapper
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> map
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> materializeClassTag
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> org
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> package
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> parallelize
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> println
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> sc
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> scala
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> set
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> setAppName
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> setMaster
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> spark
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> sparkConf
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> to
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> v
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> $m
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> $m$untyped
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> $typecreator1
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> $u
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> &&
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> +
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> ++
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> -
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> <init>
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> ==
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> >
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> AbstractFunction1
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> AbstractFunction2
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> AnyRef
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> Array
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> Automata
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> ClassTag
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> ColumnMapper
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> DstId
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> GenericRowReader$
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> GraphReader
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> HashSet
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> Int
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> Long
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> Mirror
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> None
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> Nothing
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> Ordering
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> PartitionStrategy
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> Predef
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> Product
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> RDD
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> RowReaderFactory
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> RowWriterFactory
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> ScalaRunTime
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> Serializable
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> SingleThread
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> Singleton
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> SparkConf
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> SparkContext
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> SrcId
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> Statics
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> String
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> StringConverter
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> System
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> Trans
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> Tuple2
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> Type
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> TypeConverter
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> TypeCreator
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> TypeTag
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> U
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> Unit
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> Universe
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> ValidRDDType
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> VertexId
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> _1
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> _2
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> _toString
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> ans
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> anyHash
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> apache
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> apply
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> args
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> arrow
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> asInstanceOf
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> asType
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> attr
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> augmentString
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> auto
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> automata
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> cache
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> canBuildFrom
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> cartesian
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> collect
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> collection
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> com
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> connector
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> contains
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> count
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> currentStates
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> currentTimeMillis
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> currentTrans
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> datastax
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> defaultColumnMapper
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> defaultRowWriterFactory
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> distinct
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> dstId
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> dstid
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> e
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> edge
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> edges
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> endTime
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> eq
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> equals
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> f
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> filter
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> finalState
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> finalizeHash
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> firstEdges
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> flatMap
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> get
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> getClass
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> getClassLoader
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> getLong
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> getString
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> graphx
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> i
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> immutable
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> isInstanceOf
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> java
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> javaSerializableAsValidRDDType
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> joinWithCassandraTable
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> key
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> keyspace
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> keyspace_=
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> label
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> labelset
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> lang
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> length
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> longArrayOps
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> longHash
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> map
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> mapper
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> materializeClassTag
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> materializeTypeTag
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> math
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> mix
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> mkString
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> newtemp
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> nextStates
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> nextTrans
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> org
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> package
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> partitions
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> path
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> path_=
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> println
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> qual$1
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> rdd
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> reader
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> refArrayOps
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> reflect
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> regularPathQuery
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> repartition
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> row
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> runtime
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> runtimeMirror
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> s
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> sc
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> scala
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> set
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> setAppName
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> setMaster
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> singleThread
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> size
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> spark
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> sparkConf
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> split
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> srcId
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> srcid
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> startTime
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> staticClass
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> tableName
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> tableName_=
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> temp
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> toLong
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> toRDDFunctions
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> toString
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> toTypeConstructor
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> tuple
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> typedProductIterator
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> types
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> unary_!
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> universe
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> v
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> vertices
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> visitedStates
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> where
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> while$1
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> writer
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> x$10
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> x$11
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> x$12
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> x$13
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> x$14
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> x$15
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> x$16
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> x$17
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> x$2
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> x$3
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> x$4
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> x$5
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> x$6
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> x$7
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> x$8
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> x$9
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> ||
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> &&
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> <init>
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> ==
@@ -783,14 +1084,14 @@ used names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> Array
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> ClassTag
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> EdgeLabel
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> GenericRowReader$
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> Int
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> Long
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> None
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> Ordering
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> PartitionStrategy
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> Predef
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> Product
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> RDD
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> RowReaderFactory
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> ScalaRunTime
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> Serializable
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> SparkConf
@@ -799,136 +1100,163 @@ used names:
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> Statics
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> String
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> Test
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> ValidRDDType
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> Unit
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> _hashCode
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> _toString
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> apache
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> apply
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> asInstanceOf
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> cassandraTable
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> com
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> connector
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> count
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> datastax
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> eq
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> finalizeHash
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> foreachPartition
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> graphx
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> groupByKey
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> ids
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> intWrapper
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> isInstanceOf
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> javaSerializableAsValidRDDType
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> keys
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> label
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> longHash
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> map
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> materializeClassTag
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> math
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> mix
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> org
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> package
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> parallelize
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> println
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> qual$1
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> rdd
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> reader
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> rddToPairRDDFunctions
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> regularPathQuery
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> runtime
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> sc
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> scala
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> select
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> set
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> setAppName
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> setMaster
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> size
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> spark
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> sparkConf
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> srcid
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> toNamedColumnRef
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> toSparkContextFunctions
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> to
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> toString
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> typedProductIterator
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> wrapLongArray
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> x
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> x$1
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> x$2
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> x$3
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> x$4
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> x$5
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> x$6
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> x$7
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> v
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> ||
 product stamps:
-68 items
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$1.class -> lastModified(1434484842000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$2.class -> lastModified(1434484842000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$3.class -> lastModified(1434484842000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$4.class -> lastModified(1434484842000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$5.class -> lastModified(1434484842000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$6.class -> lastModified(1434484842000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$7.class -> lastModified(1434484842000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$8$$anonfun$apply$1.class -> lastModified(1434484842000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$8.class -> lastModified(1434484842000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$9.class -> lastModified(1434484842000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$typecreator1$1.class -> lastModified(1434484842000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$typecreator2$1.class -> lastModified(1434484842000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$typecreator3$1.class -> lastModified(1434484842000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$typecreator4$1.class -> lastModified(1434484842000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$.class -> lastModified(1434484842000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$SrcId$.class -> lastModified(1434484843000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$SrcId.class -> lastModified(1434484842000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$arrow$.class -> lastModified(1434484843000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$arrow.class -> lastModified(1434484843000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader.class -> lastModified(1434484842000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$anonfun$1.class -> lastModified(1434387397000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$anonfun$2.class -> lastModified(1434387397000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$anonfun$3.class -> lastModified(1434387397000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$anonfun$4.class -> lastModified(1434387397000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$anonfun$5.class -> lastModified(1434387397000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$anonfun$6.class -> lastModified(1434387398000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$typecreator2$1.class -> lastModified(1434387398000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$typecreator3$1.class -> lastModified(1434387398000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$typecreator4$1.class -> lastModified(1434387398000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$typecreator6$1.class -> lastModified(1434387398000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$typecreator7$1.class -> lastModified(1434387398000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$typecreator8$1.class -> lastModified(1434387398000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$.class -> lastModified(1434387397000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter.class -> lastModified(1434387397000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$1.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$10.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$11.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$2$$anonfun$apply$1.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$2.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$3.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$4.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$5.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$6$$anonfun$apply$2.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$6.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$7.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$8$$anonfun$apply$3.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$8.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$9.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$multipleThreads$1.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$multipleThreads$2.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$multipleThreads$3.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$typecreator1$1.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$typecreator2$1.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$DstId$.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$DstId.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$arrow$.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$arrow.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads.class -> lastModified(1434488350000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$.class -> lastModified(1434387398000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread.class -> lastModified(1434387398000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test$$anonfun$main$1.class -> lastModified(1434387398000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test$.class -> lastModified(1434387398000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test$EdgeLabel$.class -> lastModified(1434387398000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test$EdgeLabel.class -> lastModified(1434387398000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test$SrcId$.class -> lastModified(1434387398000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test$SrcId.class -> lastModified(1434387398000)
-/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test.class -> lastModified(1434387398000)
+103 items
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/firstSparkApp/RDDTest$$anonfun$1.class -> lastModified(1436280509000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/firstSparkApp/RDDTest$.class -> lastModified(1436280509000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/firstSparkApp/RDDTest.class -> lastModified(1436280509000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$1.class -> lastModified(1436441941000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$10$$anonfun$apply$1.class -> lastModified(1436441941000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$10.class -> lastModified(1436441941000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$11.class -> lastModified(1436441941000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$2.class -> lastModified(1436441941000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$3.class -> lastModified(1436441941000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$4.class -> lastModified(1436441941000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$5.class -> lastModified(1436441941000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$6.class -> lastModified(1436441941000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$7.class -> lastModified(1436441941000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$8.class -> lastModified(1436441941000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$anonfun$9.class -> lastModified(1436441941000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$typecreator1$1.class -> lastModified(1436441941000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$typecreator2$1.class -> lastModified(1436441941000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$typecreator3$1.class -> lastModified(1436441941000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$$typecreator4$1.class -> lastModified(1436441941000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$.class -> lastModified(1436441940000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$SrcId$.class -> lastModified(1436441941000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$SrcId.class -> lastModified(1436441942000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$arrow$.class -> lastModified(1436441942000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader$arrow.class -> lastModified(1436441942000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphReader.class -> lastModified(1436441939000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$anonfun$1.class -> lastModified(1435431207000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$anonfun$2.class -> lastModified(1435431207000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$anonfun$3.class -> lastModified(1435431207000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$anonfun$4.class -> lastModified(1435431207000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$anonfun$5.class -> lastModified(1435431207000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$anonfun$6.class -> lastModified(1435431207000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$typecreator2$1.class -> lastModified(1435431207000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$typecreator3$1.class -> lastModified(1435431207000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$typecreator4$1.class -> lastModified(1435431207000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$typecreator6$1.class -> lastModified(1435431207000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$typecreator7$1.class -> lastModified(1435431207000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$$typecreator8$1.class -> lastModified(1435431207000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter$.class -> lastModified(1435431207000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/GraphWriter.class -> lastModified(1435431207000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$1.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$10$$anonfun$apply$2.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$10.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$11.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$12.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$13.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$2.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$3.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$4.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$5.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$6.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$7.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$8$$anonfun$apply$1.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$8.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$9.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$multipleThreads$1.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$multipleThreads$2.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$anonfun$multipleThreads$3.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$typecreator1$1.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$$typecreator2$1.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$DstId$.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$DstId.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$SrcId$.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$SrcId.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$arrow$.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads$arrow.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/MultipleThreads.class -> lastModified(1436445852000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$1.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$10$$anonfun$apply$2.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$10.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$11.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$12.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$13.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$2.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$3.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$4.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$5.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$6.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$7.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$8$$anonfun$apply$1.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$8.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$9.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$singleThread$1.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$singleThread$2.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$anonfun$singleThread$3.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$$typecreator1$1.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$DstId$.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$DstId.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$SrcId$.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$SrcId.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$arrow$.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$arrow.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$key$.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread$key.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/SingleThread.class -> lastModified(1436449487000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test$$anonfun$1.class -> lastModified(1436281865000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test$.class -> lastModified(1436281865000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test$EdgeLabel$.class -> lastModified(1436281865000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test$EdgeLabel.class -> lastModified(1436281865000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test$SrcId$.class -> lastModified(1436281865000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test$SrcId.class -> lastModified(1436281865000)
+/home/crazydog/workspace/Thesis-sbt/target/scala-2.10/classes/regularPathQuery/Test.class -> lastModified(1436281865000)
 source stamps:
-5 items
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> hash(42ffaa8f9c59d15e7ecd70bb2b8f30a56163eeb4)
+6 items
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> hash(a2ea7bc0982df76eb9797b43f5ad1ee13d385709)
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphWriter.scala -> hash(8c392be084538eaf0288fa12b2a9f854d5455d8d)
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> hash(7c1c2d1dd872736882cbe2ec62c60fc4f8273509)
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> hash(db7487af84e98db20ba153e8725b642f28f22dc8)
-/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> hash(6f83a25f52c85826855c8c8119e32749143a56f6)
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> hash(e0fb3fcc3eceeb8a596d083a934461264a509f82)
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> hash(051f871f4ef4ccbacd94f66ae785567bd71e3a11)
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> hash(5109e1c3342d8851a78f5194287dfa5a35daf625)
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> hash(4125b921d0aa3ee1cbed10cfd17746a0e07cfa3a)
 binary stamps:
 6 items
 /root/.ivy2/cache/com.datastax.spark/spark-cassandra-connector_2.10/jars/spark-cassandra-connector_2.10-1.2.1.jar -> lastModified(1431684517000)
@@ -939,40 +1267,44 @@ binary stamps:
 /usr/lib/jvm/jdk1.7.0_79/jre/lib/rt.jar -> lastModified(1428691999000)
 class names:
 6 items
-/root/.ivy2/cache/com.datastax.spark/spark-cassandra-connector_2.10/jars/spark-cassandra-connector_2.10-1.2.1.jar -> com.datastax.spark.connector.rdd.ValidRDDType
-/root/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.2.2.jar -> org.apache.spark.SparkContext$
-/root/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.2.2.jar -> org.apache.spark.graphx.Edge
-/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar -> scala.Serializable
+/root/.ivy2/cache/com.datastax.spark/spark-cassandra-connector_2.10/jars/spark-cassandra-connector_2.10-1.2.1.jar -> com.datastax.spark.connector.mapper.LowPriorityColumnMapper
+/root/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.2.2.jar -> org.apache.spark.rdd.RDD
+/root/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.2.2.jar -> org.apache.spark.graphx.PartitionStrategy$
+/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar -> scala.Product
 /root/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.5.jar -> scala.reflect.api.TypeCreator
 /usr/lib/jvm/jdk1.7.0_79/jre/lib/rt.jar -> java.lang.Object
 internal apis:
-5 items
+6 items
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBiphpFAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAALHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cIUoSrZ0AAZub3RpZnlzcQB+AAyZ4yhVdAAHdW5hcHBseXNxAH4ADGxOvkR0AAdjdXJyaWVkc3EAfgAMgEAzU3QABHdhaXRzcQB+AAxNyK1rdAAIYXV0b21hdGFzcQB+AAxLhuMddAAOY29weSRkZWZhdWx0JDJzcQB+AAxqjJmsdAANJGFzSW5zdGFuY2VPZnNxAH4ADIX5mWt0AAdjb21wb3Nlc3EAfgAMS5CnV3QADHByb2R1Y3RBcml0eXNxAH4ADM3bVil0AA1nZXROZXh0U3RhdGVzc3EAfgAMklTPRXQABmVxdWFsc3NxAH4ADN/cZ9d0AAtHcmFwaFJlYWRlcnNxAH4ADKTLFd50AAxhc0luc3RhbmNlT2ZzcQB+AAx5W3EcdAAMc3luY2hyb25pemVkc3EAfgAMoMntkHQABWxhYmVsc3EAfgAM8OML7HQADSRpc0luc3RhbmNlT2ZzcQB+AAyA6vrJdAAHYW5kVGhlbnNxAH4ADE1B2250AAZ0dXBsZWRzcQB+AAzaOmCSdAAIY2FuRXF1YWxzcQB+AAwBZbn5dAAEbWFpbnNxAH4ADK0blkJ0AA1wcm9kdWN0UHJlZml4c3EAfgAM6UiQC3QACW5vdGlmeUFsbHNxAH4ADGAoE4R0AAtyZWFkUmVzb2x2ZXNxAH4ADKEHmnh0AAxpc0luc3RhbmNlT2ZzcQB+AAzLyYSedAAGPGluaXQ+c3EAfgAMwlF1m3QABWFwcGx5c3EAfgAMyY+ZV3QAAj09c3EAfgAMTHpwYXQABXNyY2lkc3EAfgAMCQSsG3QABWNsb25lc3EAfgAMJz9LAXQADGdldEdyYXBoU2l6ZXNxAH4ADHU4J0V0AARjb3B5c3EAfgAM5KEafHQACHRvU3RyaW5nc3EAfgAMbG5uj3QAAiE9c3EAfgAMjoclnHQACGdldENsYXNzc3EAfgAMcvasBXQADmNvcHkkZGVmYXVsdCQxc3EAfgAM6+tpNXQABVNyY0lkc3EAfgAMSb8Pp3QAAm5lc3EAfgAMTsyhd3QAAmVxc3EAfgAMwhdKT3QAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADPTZTYh0AAIjI3NxAH4ADL91xah0AAhmaW5hbGl6ZXNxAH4ADJqXcEZ0AA5wcm9kdWN0RWxlbWVudHNxAH4ADF+dY6x0AAhoYXNoQ29kZXNxAH4ADO48eS50AAVhcnJvd3NyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AG94cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABxyZWd1bGFyUGF0aFF1ZXJ5LkdyYXBoUmVhZGVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AiHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AhwBwc3EAfgCMc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AG9MAAlpbmhlcml0ZWRxAH4Ab0wAB3BhcmVudHNxAH4Ab3hxAH4AkHNxAH4AhwBwc3EAfgCMdXEAfgBqAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBwcQB+AHl1cQB+AHoAAAAAc3EAfgB8AHEAfgA1dXEAfgB/AAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AI90AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCPc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCtdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AmnhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AgnQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AoVsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4Aj3NxAH4AoHQABUFycmF5cQB+AKZ1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AoHQABlN0cmluZ3NxAH4ApHNxAH4Ap3VxAH4AqgAAAANzcQB+AKx0AARqYXZhc3EAfgCsdAAEbGFuZ3EAfgCxc3EAfgCHAHBzcQB+AIx1cQB+AGoAAAAAc3EAfgCHAHBzcQB+AIx1cQB+AMUAAAACc3EAfgCgdAAGT2JqZWN0cQB+AMlzcQB+AKB0AANBbnlxAH4ApnVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAEHJlZ3VsYXJQYXRoUXVlcnlzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU399Xp2dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRC/6qPnFnRXn7NcLsrjzClYWPutA==
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDpQWWNAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAALXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cIUoSrZ0AAZub3RpZnlzcQB+AAyZ4yhVdAAHdW5hcHBseXNxAH4ADGxOvkR0AAdjdXJyaWVkc3EAfgAMgEAzU3QABHdhaXRzcQB+AAxNyK1rdAAIYXV0b21hdGFzcQB+AAxLhuMddAAOY29weSRkZWZhdWx0JDJzcQB+AAxqjJmsdAANJGFzSW5zdGFuY2VPZnNxAH4ADIX5mWt0AAdjb21wb3Nlc3EAfgAMS5CnV3QADHByb2R1Y3RBcml0eXNxAH4ADM3bVil0AA1nZXROZXh0U3RhdGVzc3EAfgAMklTPRXQABmVxdWFsc3NxAH4ADN/cZ9d0AAtHcmFwaFJlYWRlcnNxAH4ADKTLFd50AAxhc0luc3RhbmNlT2ZzcQB+AAx5W3EcdAAMc3luY2hyb25pemVkc3EAfgAMoMntkHQABWxhYmVsc3EAfgAM8OML7HQADSRpc0luc3RhbmNlT2ZzcQB+AAyA6vrJdAAHYW5kVGhlbnNxAH4ADE1B2250AAZ0dXBsZWRzcQB+AAzaOmCSdAAIY2FuRXF1YWxzcQB+AAwBZbn5dAAEbWFpbnNxAH4ADK0blkJ0AA1wcm9kdWN0UHJlZml4c3EAfgAM6UiQC3QACW5vdGlmeUFsbHNxAH4ADGAoE4R0AAtyZWFkUmVzb2x2ZXNxAH4ADKEHmnh0AAxpc0luc3RhbmNlT2ZzcQB+AAzLyYSedAAGPGluaXQ+c3EAfgAMwlF1m3QABWFwcGx5c3EAfgAMJxdcvXQACmZpcnN0RWRnZXNzcQB+AAzJj5lXdAACPT1zcQB+AAxMenBhdAAFc3JjaWRzcQB+AAwJBKwbdAAFY2xvbmVzcQB+AAw48CbVdAAMZ2V0R3JhcGhTaXplc3EAfgAMdTgnRXQABGNvcHlzcQB+AAzkoRp8dAAIdG9TdHJpbmdzcQB+AAxsbm6PdAACIT1zcQB+AAyOhyWcdAAIZ2V0Q2xhc3NzcQB+AAxy9qwFdAAOY29weSRkZWZhdWx0JDFzcQB+AAzr62k1dAAFU3JjSWRzcQB+AAxJvw+ndAACbmVzcQB+AAxOzKF3dAACZXFzcQB+AAzCF0pPdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAM9NlNiHQAAiMjc3EAfgAMv3XFqHQACGZpbmFsaXplc3EAfgAMmpdwRnQADnByb2R1Y3RFbGVtZW50c3EAfgAMX51jrHQACGhhc2hDb2Rlc3EAfgAM7jx5LnQABWFycm93c3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AcXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAHHJlZ3VsYXJQYXRoUXVlcnkuR3JhcGhSZWFkZXJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgCKeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCJAHBzcQB+AI5zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AcUwACWluaGVyaXRlZHEAfgBxTAAHcGFyZW50c3EAfgBxeHEAfgCSc3EAfgCJAHBzcQB+AI51cQB+AGwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AHJxAH4Ae3VxAH4AfAAAAABzcQB+AH4AcQB+ADV1cQB+AIEAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AkXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AJFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AK91cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgCceHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgCEdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCjWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgCRc3EAfgCidAAFQXJyYXlxAH4AqHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgCidAAGU3RyaW5nc3EAfgCmc3EAfgCpdXEAfgCsAAAAA3NxAH4ArnQABGphdmFzcQB+AK50AARsYW5ncQB+ALNzcQB+AIkAcHNxAH4AjnVxAH4AbAAAAABzcQB+AIkAcHNxAH4AjnVxAH4AxwAAAAJzcQB+AKJ0AAZPYmplY3RxAH4Ay3NxAH4AonQAA0FueXEAfgCodXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAQcmVndWxhclBhdGhRdWVyeXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTnKcIKt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA9L2hvbWUvY3Jhenlkb2cvd29ya3NwYWNlL1RoZXNpcy1zYnQvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFKLqe8CYLfduuXl7Q/WtHuE9OFcJ
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphWriter.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDHxD/DAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAF3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHUSeWx0AAZub3RpZnlzcQB+AAx+e4SkdAAJd3JpdGVUZXN0c3EAfgAM1iBfS3QABHdhaXRzcQB+AAwNWitLdAANJGFzSW5zdGFuY2VPZnNxAH4ADNVMGc50AAZlcXVhbHNzcQB+AAy9Z9OTdAALR3JhcGhXcml0ZXJzcQB+AAz8pXuYdAAMYXNJbnN0YW5jZU9mc3EAfgAMrLWwaXQADHN5bmNocm9uaXplZHNxAH4ADJlEskh0AA0kaXNJbnN0YW5jZU9mc3EAfgAMXa253XQABG1haW5zcQB+AAwMVF3ndAAJbm90aWZ5QWxsc3EAfgAMGn47e3QADGlzSW5zdGFuY2VPZnNxAH4ADIEHP4B0AAI9PXNxAH4ADGDRSCx0AAx3cml0ZUFsaWJhYmFzcQB+AAz+pK+WdAAFY2xvbmVzcQB+AAxkOJM7dAAIdG9TdHJpbmdzcQB+AAyYCbRedAACIT1zcQB+AAyzJiyJdAAIZ2V0Q2xhc3NzcQB+AAyRKiGydAACbmVzcQB+AAz+MgITdAACZXFzcQB+AAxEXR/1dAACIyNzcQB+AAzDd3UKdAAIZmluYWxpemVzcQB+AAydDKuZdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBFeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAccmVndWxhclBhdGhRdWVyeS5HcmFwaFdyaXRlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AXQFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ARUwACWluaGVyaXRlZHEAfgBFTAAHcGFyZW50c3EAfgBFeHEAfgBkc3EAfgBdAXVxAH4AQAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4ARnEAfgBPdXEAfgBQAAAAAHNxAH4AUgBxAH4AIXVxAH4AVQAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBjdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AY3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Af3VyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AGx4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFh0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AHNbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGNzcQB+AHJ0AAVBcnJheXEAfgB4dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AHJ0AAZTdHJpbmdzcQB+AHZzcQB+AHl1cQB+AHwAAAADc3EAfgB+dAAEamF2YXNxAH4AfnQABGxhbmdxAH4Ag3BzcQB+AF0BdXEAfgBAAAAAAHBzcQB+AF0BdXEAfgCXAAAAAnNxAH4AcnQABk9iamVjdHEAfgCbc3EAfgBydAADQW55cQB+AHhwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAEHJlZ3VsYXJQYXRoUXVlcnlzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU34JqjrdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSMOSvghFOOrwKI+hKyqfhU1UVdjQ==
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDHxD/DAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAF3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHUSeWx0AAZub3RpZnlzcQB+AAx+e4SkdAAJd3JpdGVUZXN0c3EAfgAM1iBfS3QABHdhaXRzcQB+AAwNWitLdAANJGFzSW5zdGFuY2VPZnNxAH4ADNVMGc50AAZlcXVhbHNzcQB+AAy9Z9OTdAALR3JhcGhXcml0ZXJzcQB+AAz8pXuYdAAMYXNJbnN0YW5jZU9mc3EAfgAMrLWwaXQADHN5bmNocm9uaXplZHNxAH4ADJlEskh0AA0kaXNJbnN0YW5jZU9mc3EAfgAMXa253XQABG1haW5zcQB+AAwMVF3ndAAJbm90aWZ5QWxsc3EAfgAMGn47e3QADGlzSW5zdGFuY2VPZnNxAH4ADIEHP4B0AAI9PXNxAH4ADGDRSCx0AAx3cml0ZUFsaWJhYmFzcQB+AAz+pK+WdAAFY2xvbmVzcQB+AAxkOJM7dAAIdG9TdHJpbmdzcQB+AAyYCbRedAACIT1zcQB+AAyzJiyJdAAIZ2V0Q2xhc3NzcQB+AAyRKiGydAACbmVzcQB+AAz+MgITdAACZXFzcQB+AAxEXR/1dAACIyNzcQB+AAzDd3UKdAAIZmluYWxpemVzcQB+AAydDKuZdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBFeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAccmVndWxhclBhdGhRdWVyeS5HcmFwaFdyaXRlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AXQFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ARUwACWluaGVyaXRlZHEAfgBFTAAHcGFyZW50c3EAfgBFeHEAfgBkc3EAfgBdAXVxAH4AQAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4ARnEAfgBPdXEAfgBQAAAAAHNxAH4AUgBxAH4AIXVxAH4AVQAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBjdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AY3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Af3VyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AGx4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFh0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AHNbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGNzcQB+AHJ0AAVBcnJheXEAfgB4dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AHJ0AAZTdHJpbmdzcQB+AHZzcQB+AHl1cQB+AHwAAAADc3EAfgB+dAAEamF2YXNxAH4AfnQABGxhbmdxAH4Ag3BzcQB+AF0BdXEAfgBAAAAAAHBzcQB+AF0BdXEAfgCXAAAAAnNxAH4AcnQABk9iamVjdHEAfgCbc3EAfgBydAADQW55cQB+AHhwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAEHJlZ3VsYXJQYXRoUXVlcnlzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU42XdD/dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSMOSvghFOOrwKI+hKyqfhU1UVdjQ==
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBNmrP3AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAALXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cC7/TX90AAZub3RpZnlzcQB+AAxDZfg6dAAHdW5hcHBseXNxAH4ADOgLcu10AAdjdXJyaWVkc3EAfgAMRw/QCnQABHdhaXRzcQB+AAzIKkY5dAAOY29weSRkZWZhdWx0JDJzcQB+AAyOY1G4dAANJGFzSW5zdGFuY2VPZnNxAH4ADBDV0Ql0AARwYXRoc3EAfgAMLa1MHXQAB2NvbXBvc2VzcQB+AAxV23YXdAAMcHJvZHVjdEFyaXR5c3EAfgAMp7GrMHQABmVxdWFsc3NxAH4ADOHo4Zx0AAVEc3RJZHNxAH4ADPlQVVR0AAxhc0luc3RhbmNlT2ZzcQB+AAzlFvuOdAAMc3luY2hyb25pemVkc3EAfgAM4AZv/nQABWxhYmVsc3EAfgAMpmsPhXQADSRpc0luc3RhbmNlT2ZzcQB+AAxZKFXXdAAHYW5kVGhlbnNxAH4ADPUbQRN0AAZ0dXBsZWRzcQB+AAxQVgY3dAAIY2FuRXF1YWxzcQB+AAx/aPuqdAAEbWFpbnNxAH4ADJ0Q1IR0AA1wcm9kdWN0UHJlZml4c3EAfgAMF1yQiXQACW5vdGlmeUFsbHNxAH4ADKXDLBd0AAtyZWFkUmVzb2x2ZXNxAH4ADFUoTcl0AAxpc0luc3RhbmNlT2ZzcQB+AAxU6SjzdAAGPGluaXQ+c3EAfgAM16+WE3QAD211bHRpcGxlVGhyZWFkc3NxAH4ADJ7LJRx0AAVhcHBseXNxAH4ADDrRT4x0AAl0YWJsZU5hbWVzcQB+AAy+H0PrdAACPT1zcQB+AAzSFfUgdAAFc3JjaWRzcQB+AAw+SHJOdAAFY2xvbmVzcQB+AAz+H97adAAEY29weXNxAH4ADL5Nlol0AAh0b1N0cmluZ3NxAH4ADK7cy3R0AAIhPXNxAH4ADGTejt10AAhnZXRDbGFzc3NxAH4ADLvwRy10AA5jb3B5JGRlZmF1bHQkMXNxAH4ADDYGaJR0AAJuZXNxAH4ADKb0W3d0AAVkc3RpZHNxAH4ADBw7mcx0AA9NdWx0aXBsZVRocmVhZHNzcQB+AAzVIBf7dAACZXFzcQB+AAy0Fo93dAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMeNI4tXQAAiMjc3EAfgAMNz1LQXQACGZpbmFsaXplc3EAfgAMFvCOmHQADnByb2R1Y3RFbGVtZW50c3EAfgAMBSFqOXQACGhhc2hDb2Rlc3EAfgAM4RnPGXQABWFycm93c3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AcXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAIHJlZ3VsYXJQYXRoUXVlcnkuTXVsdGlwbGVUaHJlYWRzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgCJAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBxTAAJaW5oZXJpdGVkcQB+AHFMAAdwYXJlbnRzcQB+AHF4cQB+AJBzcQB+AIkBdXEAfgBsAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBycQB+AHt1cQB+AHwAAAAAc3EAfgB+AHEAfgAzdXEAfgCBAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AI90AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCPc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCrdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AmHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AhHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4An1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4Aj3NxAH4AnnQABUFycmF5cQB+AKR1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AnnQABlN0cmluZ3NxAH4AonNxAH4ApXVxAH4AqAAAAANzcQB+AKp0AARqYXZhc3EAfgCqdAAEbGFuZ3EAfgCvcHNxAH4AiQF1cQB+AGwAAAAAcHNxAH4AiQF1cQB+AMMAAAACc3EAfgCedAAGT2JqZWN0cQB+AMdzcQB+AJ50AANBbnlxAH4ApHBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAQcmVndWxhclBhdGhRdWVyeXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTf4rANF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA9L2hvbWUvY3Jhenlkb2cvd29ya3NwYWNlL1RoZXNpcy1zYnQvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFHwcLR3YcnNogsvi7GLGD8T4JzUJ
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAd7fhnAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAL3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cIRek1F0AAZub3RpZnlzcQB+AAyQMfkDdAAHdW5hcHBseXNxAH4ADOgLcu10AAdjdXJyaWVkc3EAfgAMU79FqnQABHdhaXRzcQB+AAzIKkY5dAAOY29weSRkZWZhdWx0JDJzcQB+AAz9IpFadAANJGFzSW5zdGFuY2VPZnNxAH4ADBDV0Ql0AARwYXRoc3EAfgAMWyOGMnQAB2NvbXBvc2VzcQB+AAwY0jLhdAAMcHJvZHVjdEFyaXR5c3EAfgAMplHEPnQABmVxdWFsc3NxAH4ADOHo4Zx0AAVEc3RJZHNxAH4ADC5irzN0AAxhc0luc3RhbmNlT2ZzcQB+AAwaRtmadAAMc3luY2hyb25pemVkc3EAfgAM4AZv/nQABWxhYmVsc3EAfgAMXKD7gHQADSRpc0luc3RhbmNlT2ZzcQB+AAxy1LQ5dAAHYW5kVGhlbnNxAH4ADPUbQRN0AAZ0dXBsZWRzcQB+AAxrzTLgdAAIY2FuRXF1YWxzcQB+AAx/aPuqdAAEbWFpbnNxAH4ADOQr4ip0AA1wcm9kdWN0UHJlZml4c3EAfgAMh4csaXQACW5vdGlmeUFsbHNxAH4ADBJkGBl0AAtyZWFkUmVzb2x2ZXNxAH4ADBC03990AAxpc0luc3RhbmNlT2ZzcQB+AAw/QqXRdAAGPGluaXQ+c3EAfgAM16+WE3QAD211bHRpcGxlVGhyZWFkc3NxAH4ADDwfJFd0AAVhcHBseXNxAH4ADDrRT4x0AAl0YWJsZU5hbWVzcQB+AAzdC8jidAACPT1zcQB+AAzxiQr7dAAFc3JjaWRzcQB+AAyK2+hPdAAFY2xvbmVzcQB+AAxOKv1XdAAIa2V5c3BhY2VzcQB+AAwZ0C9NdAAEY29weXNxAH4ADB6xcDJ0AAh0b1N0cmluZ3NxAH4ADAfKxPl0AAIhPXNxAH4ADCBcvyp0AAhnZXRDbGFzc3NxAH4ADENiSV10AA5jb3B5JGRlZmF1bHQkMXNxAH4ADHITty50AAVTcmNJZHNxAH4ADPZPpAh0AAJuZXNxAH4ADKb0W3d0AAVkc3RpZHNxAH4ADBw7mcx0AA9NdWx0aXBsZVRocmVhZHNzcQB+AAxEMdJadAACZXFzcQB+AAxszCl/dAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMiSHM5XQAAiMjc3EAfgAMTixU13QACGZpbmFsaXplc3EAfgAM5zceZ3QADnByb2R1Y3RFbGVtZW50c3EAfgAMJytzK3QACGhhc2hDb2Rlc3EAfgAM4RnPGXQABWFycm93c3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AdXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAIHJlZ3VsYXJQYXRoUXVlcnkuTXVsdGlwbGVUaHJlYWRzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgCNAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgB1TAAJaW5oZXJpdGVkcQB+AHVMAAdwYXJlbnRzcQB+AHV4cQB+AJRzcQB+AI0BdXEAfgBwAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgB2cQB+AH91cQB+AIAAAAAAc3EAfgCCAHEAfgAzdXEAfgCFAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AJN0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCTc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCvdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AnHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AiHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4Ao1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4Ak3NxAH4AonQABUFycmF5cQB+AKh1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AonQABlN0cmluZ3NxAH4ApnNxAH4AqXVxAH4ArAAAAANzcQB+AK50AARqYXZhc3EAfgCudAAEbGFuZ3EAfgCzcHNxAH4AjQF1cQB+AHAAAAAAcHNxAH4AjQF1cQB+AMcAAAACc3EAfgCidAAGT2JqZWN0cQB+AMtzcQB+AKJ0AANBbnlxAH4AqHBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAQcmVndWxhclBhdGhRdWVyeXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTnLYG8l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA9L2hvbWUvY3Jhenlkb2cvd29ya3NwYWNlL1RoZXNpcy1zYnQvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFOD7P8w+zuuKWW0IOpNEYSZKUJ+C
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCY5MB/AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cFwEkuR0AAZub3RpZnlzcQB+AAydEe04dAAEd2FpdHNxAH4ADKoTp150AA0kYXNJbnN0YW5jZU9mc3EAfgAMeD1xQnQABmVxdWFsc3NxAH4ADGemiHR0AAxhc0luc3RhbmNlT2ZzcQB+AAybmRBqdAAMc3luY2hyb25pemVkc3EAfgAMaBf5MnQADSRpc0luc3RhbmNlT2ZzcQB+AAyGAv18dAAEbWFpbnNxAH4ADBAzaO10AAlub3RpZnlBbGxzcQB+AAzCoUeJdAAMaXNJbnN0YW5jZU9mc3EAfgAML854TnQAAj09c3EAfgAMVH88rnQABWNsb25lc3EAfgAMzWgYrnQAB1JERFRlc3RzcQB+AAyP3ej1dAAIdG9TdHJpbmdzcQB+AAwFUzRJdAACIT1zcQB+AAzxeQlydAAIZ2V0Q2xhc3NzcQB+AAxAiBfOdAACbmVzcQB+AAyT6+78dAACZXFzcQB+AAwvoA4JdAACIyNzcQB+AAy35b4ldAAIZmluYWxpemVzcQB+AAwdfk5NdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBBeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAVZmlyc3RTcGFya0FwcC5SRERUZXN0dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AWnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWQFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQUwACWluaGVyaXRlZHEAfgBBTAAHcGFyZW50c3EAfgBBeHEAfgBic3EAfgBZAXVxAH4APAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AQnEAfgBLdXEAfgBMAAAAAHNxAH4ATgBxAH4AHXVxAH4AUQAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBhdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AYXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AfXVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AGp4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFR0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AHFbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGFzcQB+AHB0AAVBcnJheXEAfgB2dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AHB0AAZTdHJpbmdzcQB+AHRzcQB+AHd1cQB+AHoAAAADc3EAfgB8dAAEamF2YXNxAH4AfHQABGxhbmdxAH4AgXBzcQB+AFkBdXEAfgA8AAAAAHBzcQB+AFkBdXEAfgCVAAAAAnNxAH4AcHQABk9iamVjdHEAfgCZc3EAfgBwdAADQW55cQB+AHZwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQADWZpcnN0U3BhcmtBcHBzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU5o/UKNdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQFH4cfTvTMus2U9mrnhVZ71x46EQ==
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDRt2DOAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cKWge1V0AAZub3RpZnlzcQB+AAzh916odAAEd2FpdHNxAH4ADOvN0Sx0AA0kYXNJbnN0YW5jZU9mc3EAfgAMOM8ax3QADFNpbmdsZVRocmVhZHNxAH4ADNNbapx0AAZlcXVhbHNzcQB+AAyB6c2bdAAMc2luZ2xlVGhyZWFkc3EAfgAMlO+H73QADGFzSW5zdGFuY2VPZnNxAH4ADHEdAnF0AAxzeW5jaHJvbml6ZWRzcQB+AAwfP5NZdAANJGlzSW5zdGFuY2VPZnNxAH4ADDS2lOh0AARtYWluc3EAfgAMoAM1G3QACW5vdGlmeUFsbHNxAH4ADAm3s2V0AAxpc0luc3RhbmNlT2ZzcQB+AAyHP9qMdAACPT1zcQB+AAzcO1aidAAFY2xvbmVzcQB+AAySc4D6dAAIdG9TdHJpbmdzcQB+AAwIN4OddAACIT1zcQB+AAzUSOXDdAAIZ2V0Q2xhc3NzcQB+AAx0emwldAACbmVzcQB+AAyn6DM9dAACZXFzcQB+AAxNwThadAACIyNzcQB+AAyhtHtmdAAIZmluYWxpemVzcQB+AAwk7deBdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBDeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAdcmVndWxhclBhdGhRdWVyeS5TaW5nbGVUaHJlYWR1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AFsBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AENMAAlpbmhlcml0ZWRxAH4AQ0wAB3BhcmVudHNxAH4AQ3hxAH4AYnNxAH4AWwF1cQB+AD4AAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AERxAH4ATXVxAH4ATgAAAABzcQB+AFAAcQB+ACF1cQB+AFMAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AYXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AH11cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBqeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBWdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBxWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBhc3EAfgBwdAAFQXJyYXlxAH4AdnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBwdAAGU3RyaW5nc3EAfgB0c3EAfgB3dXEAfgB6AAAAA3NxAH4AfHQABGphdmFzcQB+AHx0AARsYW5ncQB+AIFwc3EAfgBbAXVxAH4APgAAAABwc3EAfgBbAXVxAH4AlQAAAAJzcQB+AHB0AAZPYmplY3RxAH4AmXNxAH4AcHQAA0FueXEAfgB2cHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABByZWd1bGFyUGF0aFF1ZXJ5c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFN+Cao63VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AD0vaG9tZS9jcmF6eWRvZy93b3Jrc3BhY2UvVGhlc2lzLXNidC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU23SHr4TpjbILoVPocltkLyjyLcg=
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAU6ezuAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAMHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJTQFcZ0AAZub3RpZnlzcQB+AAxS4gKUdAAHdW5hcHBseXNxAH4ADIr16sF0AAdjdXJyaWVkc3EAfgAM0li1xnQABHdhaXRzcQB+AAzaA1wLdAAOY29weSRkZWZhdWx0JDJzcQB+AAz51ot7dAANJGFzSW5zdGFuY2VPZnNxAH4ADAk3CeR0AARwYXRoc3EAfgAMVLg/5XQAB2NvbXBvc2VzcQB+AAw4zxrHdAAMU2luZ2xlVGhyZWFkc3EAfgAMg/zk93QADHByb2R1Y3RBcml0eXNxAH4ADITw65R0AAZlcXVhbHNzcQB+AAxHgERSdAAFRHN0SWRzcQB+AAyB6c2bdAAMc2luZ2xlVGhyZWFkc3EAfgAMXJmRl3QADGFzSW5zdGFuY2VPZnNxAH4ADOJiLRF0AAxzeW5jaHJvbml6ZWRzcQB+AAzlf633dAAFbGFiZWxzcQB+AAzmBnYddAANJGlzSW5zdGFuY2VPZnNxAH4ADNQCOZF0AAdhbmRUaGVuc3EAfgAMuuFFHXQABnR1cGxlZHNxAH4ADF0sbfp0AAhjYW5FcXVhbHNxAH4ADDS2lOh0AARtYWluc3EAfgAMaigSO3QADXByb2R1Y3RQcmVmaXhzcQB+AAxOY2A6dAAJbm90aWZ5QWxsc3EAfgAMoB+KYXQAC3JlYWRSZXNvbHZlc3EAfgAM6HDWjnQAA2tleXNxAH4ADEcEzXF0AAxpc0luc3RhbmNlT2ZzcQB+AAzl/MpBdAAGPGluaXQ+c3EAfgAMbyzW4HQABWFwcGx5c3EAfgAMmersVXQACXRhYmxlTmFtZXNxAH4ADMUIxWR0AAI9PXNxAH4ADNzzRoF0AAVzcmNpZHNxAH4ADInF4dp0AAVjbG9uZXNxAH4ADFc6/Q10AAhrZXlzcGFjZXNxAH4ADAvtmWV0AARjb3B5c3EAfgAMkOts9HQACHRvU3RyaW5nc3EAfgAMTw6HHnQAAiE9c3EAfgAMdFjaeXQACGdldENsYXNzc3EAfgAMhhah/HQADmNvcHkkZGVmYXVsdCQxc3EAfgAMAuI7u3QABVNyY0lkc3EAfgAMDyCMk3QAAm5lc3EAfgAM9Xq8MnQABWRzdGlkc3EAfgAMD6PFknQAAmVxc3EAfgAMhCqhPHQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADMorVZp0AAIjI3NxAH4ADKlfFpp0AAhmaW5hbGl6ZXNxAH4ADJGycjt0AA5wcm9kdWN0RWxlbWVudHNxAH4ADJMVScZ0AAhoYXNoQ29kZXNxAH4ADLYwJFN0AAVhcnJvd3NyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AHd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AB1yZWd1bGFyUGF0aFF1ZXJ5LlNpbmdsZVRocmVhZHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AjwFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4Ad0wACWluaGVyaXRlZHEAfgB3TAAHcGFyZW50c3EAfgB3eHEAfgCWc3EAfgCPAXVxAH4AcgAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AeHEAfgCBdXEAfgCCAAAAAHNxAH4AhABxAH4AN3VxAH4AhwAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCVdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AlXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AsXVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AJ54cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AIp0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AKVbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AJVzcQB+AKR0AAVBcnJheXEAfgCqdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AKR0AAZTdHJpbmdzcQB+AKhzcQB+AKt1cQB+AK4AAAADc3EAfgCwdAAEamF2YXNxAH4AsHQABGxhbmdxAH4AtXBzcQB+AI8BdXEAfgByAAAAAHBzcQB+AI8BdXEAfgDJAAAAAnNxAH4ApHQABk9iamVjdHEAfgDNc3EAfgCkdAADQW55cQB+AKpwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAEHJlZ3VsYXJQYXRoUXVlcnlzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU5zD5eedXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRRCeHDNC2IUaePUZQoffpaNdr2JQ==
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHByscmRAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cGDqUpV0AAZub3RpZnlzcQB+AAze5uBodAAHdW5hcHBseXNxAH4ADNKuplt0AAR3YWl0c3EAfgAMnKkGvnQADSRhc0luc3RhbmNlT2ZzcQB+AAztFO1NdAAHY29tcG9zZXNxAH4ADNjCX2d0AAxwcm9kdWN0QXJpdHlzcQB+AAychpzSdAAGZXF1YWxzc3EAfgAMowab5nQADGFzSW5zdGFuY2VPZnNxAH4ADLUbbEZ0AAxzeW5jaHJvbml6ZWRzcQB+AAyxYX75dAAFbGFiZWxzcQB+AAykcOz+dAANJGlzSW5zdGFuY2VPZnNxAH4ADEdpN2V0AAdhbmRUaGVuc3EAfgAMxNeFgXQACGNhbkVxdWFsc3EAfgAM6BQ61XQABG1haW5zcQB+AAzoNtPMdAANcHJvZHVjdFByZWZpeHNxAH4ADGz3Lbl0AAlub3RpZnlBbGxzcQB+AAynO4aFdAALcmVhZFJlc29sdmVzcQB+AAwqeluIdAAMaXNJbnN0YW5jZU9mc3EAfgAMc5Yp83QABjxpbml0PnNxAH4ADOmjg2N0AAlFZGdlTGFiZWxzcQB+AAzZT63DdAAFYXBwbHlzcQB+AAwOe862dAACPT1zcQB+AAw78QF5dAAFc3JjaWRzcQB+AAwQDV9RdAAFY2xvbmVzcQB+AAxwiw08dAAEY29weXNxAH4ADLW4bOZ0AARUZXN0c3EAfgAMsrPWC3QACHRvU3RyaW5nc3EAfgAMjgZtZXQAAiE9c3EAfgAMIhqH9XQACGdldENsYXNzc3EAfgAM87v7CnQADmNvcHkkZGVmYXVsdCQxc3EAfgAM6AKqunQABVNyY0lkc3EAfgAM+GSqdHQAAm5lc3EAfgAMMBzF7nQAAmVxc3EAfgAMRaGNs3QAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADNVvja50AAIjI3NxAH4ADI+lRJp0AAhmaW5hbGl6ZXNxAH4ADLhac5l0AA5wcm9kdWN0RWxlbWVudHNxAH4ADAgWEL10AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABVyZWd1bGFyUGF0aFF1ZXJ5LlRlc3R1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AHsBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGNMAAlpbmhlcml0ZWRxAH4AY0wAB3BhcmVudHNxAH4AY3hxAH4AgnNxAH4AewF1cQB+AF4AAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AGRxAH4AbXVxAH4AbgAAAABzcQB+AHAAcQB+ACl1cQB+AHMAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AgXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AIFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJ11cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgCKeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgB2dAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCRWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgCBc3EAfgCQdAAFQXJyYXlxAH4AlnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgCQdAAGU3RyaW5nc3EAfgCUc3EAfgCXdXEAfgCaAAAAA3NxAH4AnHQABGphdmFzcQB+AJx0AARsYW5ncQB+AKFwc3EAfgB7AXVxAH4AXgAAAABwc3EAfgB7AXVxAH4AtQAAAAJzcQB+AJB0AAZPYmplY3RxAH4AuXNxAH4AkHQAA0FueXEAfgCWcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABByZWd1bGFyUGF0aFF1ZXJ5c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFN+Cao63VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AD0vaG9tZS9jcmF6eWRvZy93b3Jrc3BhY2UvVGhlc2lzLXNidC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUb4OiX1LIWCaFXIyBGeMnSRQ6VvY=
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHByscmRAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cGDqUpV0AAZub3RpZnlzcQB+AAze5uBodAAHdW5hcHBseXNxAH4ADNKuplt0AAR3YWl0c3EAfgAMnKkGvnQADSRhc0luc3RhbmNlT2ZzcQB+AAztFO1NdAAHY29tcG9zZXNxAH4ADNjCX2d0AAxwcm9kdWN0QXJpdHlzcQB+AAychpzSdAAGZXF1YWxzc3EAfgAMowab5nQADGFzSW5zdGFuY2VPZnNxAH4ADLUbbEZ0AAxzeW5jaHJvbml6ZWRzcQB+AAyxYX75dAAFbGFiZWxzcQB+AAykcOz+dAANJGlzSW5zdGFuY2VPZnNxAH4ADEdpN2V0AAdhbmRUaGVuc3EAfgAMxNeFgXQACGNhbkVxdWFsc3EAfgAM6BQ61XQABG1haW5zcQB+AAzoNtPMdAANcHJvZHVjdFByZWZpeHNxAH4ADGz3Lbl0AAlub3RpZnlBbGxzcQB+AAynO4aFdAALcmVhZFJlc29sdmVzcQB+AAwqeluIdAAMaXNJbnN0YW5jZU9mc3EAfgAMc5Yp83QABjxpbml0PnNxAH4ADOmjg2N0AAlFZGdlTGFiZWxzcQB+AAzZT63DdAAFYXBwbHlzcQB+AAwOe862dAACPT1zcQB+AAw78QF5dAAFc3JjaWRzcQB+AAwQDV9RdAAFY2xvbmVzcQB+AAxwiw08dAAEY29weXNxAH4ADLW4bOZ0AARUZXN0c3EAfgAMsrPWC3QACHRvU3RyaW5nc3EAfgAMjgZtZXQAAiE9c3EAfgAMIhqH9XQACGdldENsYXNzc3EAfgAM87v7CnQADmNvcHkkZGVmYXVsdCQxc3EAfgAM6AKqunQABVNyY0lkc3EAfgAM+GSqdHQAAm5lc3EAfgAMMBzF7nQAAmVxc3EAfgAMRaGNs3QAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADNVvja50AAIjI3NxAH4ADI+lRJp0AAhmaW5hbGl6ZXNxAH4ADLhac5l0AA5wcm9kdWN0RWxlbWVudHNxAH4ADAgWEL10AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABVyZWd1bGFyUGF0aFF1ZXJ5LlRlc3R1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AHsBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGNMAAlpbmhlcml0ZWRxAH4AY0wAB3BhcmVudHNxAH4AY3hxAH4AgnNxAH4AewF1cQB+AF4AAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AGRxAH4AbXVxAH4AbgAAAABzcQB+AHAAcQB+ACl1cQB+AHMAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AgXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AIFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJ11cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgCKeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgB2dAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCRWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgCBc3EAfgCQdAAFQXJyYXlxAH4AlnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgCQdAAGU3RyaW5nc3EAfgCUc3EAfgCXdXEAfgCaAAAAA3NxAH4AnHQABGphdmFzcQB+AJx0AARsYW5ncQB+AKFwc3EAfgB7AXVxAH4AXgAAAABwc3EAfgB7AXVxAH4AtQAAAAJzcQB+AJB0AAZPYmplY3RxAH4AuXNxAH4AkHQAA0FueXEAfgCWcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABByZWd1bGFyUGF0aFF1ZXJ5c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFOaRH+TnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AD0vaG9tZS9jcmF6eWRvZy93b3Jrc3BhY2UvVGhlc2lzLXNidC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUQSW5IdCqPuHL7RDP0XdGoOB8+jo=
 external apis:
 0 items
 source infos:
-5 items
+6 items
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphReader.scala -> 
 AAAAAAAAAAEAAAEAAAAQAFYgICAgIHZhbCBtYXhfaWQgPSByZGQuZmlsdGVyKGxpbmU9PmxpbmUuc3BsaXQoIiAiKS5zaXplPT0xKS5tYXAoXy50b0xvbmcpLnRvQXJyYXkoKSgwKQEAAAKcAQAAAEoBAEogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAEAVS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3NyYy9tYWluL3NjYWxhL3JlZ3VsYXJQYXRoUXVlcnkvR3JhcGhSZWFkZXIuc2NhbGEBAFUvaG9tZS9jcmF6eWRvZy93b3Jrc3BhY2UvVGhlc2lzLXNidC9zcmMvbWFpbi9zY2FsYS9yZWd1bGFyUGF0aFF1ZXJ5L0dyYXBoUmVhZGVyLnNjYWxhADZtZXRob2QgdG9BcnJheSBpbiBjbGFzcyBSREQgaXMgZGVwcmVjYXRlZDogdXNlIGNvbGxlY3QB
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/GraphWriter.scala -> 
 AAAAAAAAAAA=
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/MultipleThreads.scala -> 
 AAAAAAAAAAA=
+/home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/RDDTest.scala -> 
+AAAAAAAAAAA=
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/SingleThread.scala -> 
 AAAAAAAAAAA=
 /home/crazydog/workspace/Thesis-sbt/src/main/scala/regularPathQuery/Test.scala -> 
 AAAAAAAAAAA=
 compilations:
-26 items
+43 items
 00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTfJm7JF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
 01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTfJ+n051cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
 02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTfLmma91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
@@ -999,3 +1331,20 @@ compilations:
 23 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTfza4Tl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
 24 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTf31enZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
 25 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTf4rANF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+26 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTjCXPRZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+27 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTjZd0P91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+28 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTjZjTBZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+29 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTjZxt2B1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+30 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTkSB6HR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+31 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTmj9Qo11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+32 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTmkBru51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+33 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTmkEvSV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+34 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTmkHKPR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+35 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTmkJqqF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+36 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTmkPXip1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+37 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTmkR/k51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+38 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTnKcIKt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+39 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTnLYG8l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+40 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTnL2lZV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+41 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTnMMzWF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+42 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTnMPl551cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL2NyYXp5ZG9nL3dvcmtzcGFjZS9UaGVzaXMtc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv

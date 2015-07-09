@@ -23,18 +23,18 @@ object GraphReader {
       val graph = Graph(states, trans,defaultUser)
       graph
   }
-//    def getEdgesByLabels(sc:SparkContext,ColumnFamily:String,Columns : Array[String]) : RDD[Edge[String]] = {
-//      println("enter getEdges!!")
-//      val labelset = "("+Columns.map(v=>"'"+v+"'").mkString(",")+")"
-////      val labelset = "('video','category')"
-//      val rdd = sc.cassandraTable("mykeyspace", tableName)
-//      .select("srcid")
-//      .where("label IN "+labelset).map(v=>v.getLong("srcid"))
-//      rdd.cache()
-//      getEdgesByIds(sc,rdd)
-//    }
-    def getGraphSize(sc: SparkContext,tableName:String): Long = {
-      sc.cassandraTable("mykeyspace", tableName).count()
+  def firstEdges(sc:SparkContext,keyspace: String,tableName: String,Columns : Array[String]) : RDD[(VertexId,String)] = {
+      println("enter getEdges!!")
+      val labelset = "("+Columns.map(v=>"'"+v+"'").mkString(",")+")"
+//      val labelset = "('video','category')"
+      val rdd = sc.cassandraTable(keyspace, tableName)
+      .select("srcid","label")
+      .where("label IN "+labelset).map(v=>(v.getLong("srcid"),v.getString("label")))
+      rdd.cache()
+      rdd
+    }
+    def getGraphSize(sc: SparkContext,keyspace : String,tableName:String): Long = {
+      sc.cassandraTable(keyspace, tableName).count()
     }
     case class SrcId(srcid : Long)
     def getNextStates(tableName : String,sc: SparkContext,ids : RDD[(VertexId,String)],Columns : RDD[Edge[String]],Visited : HashSet[(VertexId, VertexId)]): RDD[(VertexId,VertexId)] = {

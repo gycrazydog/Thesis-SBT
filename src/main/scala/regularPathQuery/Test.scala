@@ -11,14 +11,10 @@ import org.apache.spark.graphx.PartitionStrategy._
 object Test {
   case class EdgeLabel(label: String)
   case class SrcId(srcid : Long)
-  def main(args:Array[String]) = {
-    val sparkConf = new SparkConf().setAppName("HBaseMultipleThread").setMaster("local[4]")
-    .set("spark.cassandra.connection.host", "127.0.0.1")
-    val sc = new SparkContext(sparkConf)
-    val oddIds = sc.parallelize(Array(17L,1L))
-     val labelset = "('video','category')"
-      sc.cassandraTable("mykeyspace", "testgraph")
-      .select("srcid", "label")
-      .foreachPartition { x => println(x.size) }
+  def main(args : Array[String]){
+    val sparkConf = new SparkConf().setAppName("SparkShuffleTest-GroupByKey").setMaster("spark://ubuntu:7077")
+      val sc = new SparkContext(sparkConf)
+      val ids = sc.parallelize(1 to 300000).map(v=>(v,1))
+      println(ids.groupByKey().keys.count())
   }
 }
