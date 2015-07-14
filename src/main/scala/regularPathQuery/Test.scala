@@ -12,9 +12,11 @@ object Test {
   case class EdgeLabel(label: String)
   case class SrcId(srcid : Long)
   def main(args : Array[String]){
-    val sparkConf = new SparkConf().setAppName("SparkShuffleTest-GroupByKey").setMaster("spark://ubuntu:7077")
+    val sparkConf = new SparkConf().setAppName("SparkSubtractTest").setMaster("spark://ubuntu:7077")
+                    .set("spark.eventLog.enabled", "true")
       val sc = new SparkContext(sparkConf)
-      val ids = sc.parallelize(1 to 300000).map(v=>(v,1))
-      println(ids.groupByKey().keys.count())
+      val ids = sc.parallelize(1000 to 300000,3)
+      val now = sc.parallelize(1 to 1200, 3)
+      println(now.subtract(ids).count())
   }
 }

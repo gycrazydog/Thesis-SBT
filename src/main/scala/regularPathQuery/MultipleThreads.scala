@@ -30,7 +30,7 @@ object MultipleThreads {
       var currentStates : RDD[(VertexId,VertexId)] = currentTrans
       .cartesian(GraphReader.firstEdges(sc, keyspace, tableName, currentTrans.map(v=>v.attr).collect()))
       .filter(s=>s._2._2==s._1.attr).map(f=>(f._1.srcId,f._2._1))
-      .repartition(10)
+      .coalesce(10)
       .cache()
       var visitedStates : HashSet[(VertexId,VertexId)] = HashSet()
       var temp = currentStates.collect()
@@ -63,7 +63,7 @@ object MultipleThreads {
         val newtemp = nextStates.collect()
         temp = newtemp
         currentStates = nextStates
-        val nextTrans = currentTrans.cartesian(automata).repartition(workerNum).filter(v=>v._1.dstId==v._2.srcId).map(v=>v._2).distinct().cache()
+        val nextTrans = currentTrans.cartesian(automata).coalesce(workerNum).filter(v=>v._1.dstId==v._2.srcId).map(v=>v._2).distinct().cache()
         currentTrans = nextTrans
         println("finishing calculating currentStates!")
       }
