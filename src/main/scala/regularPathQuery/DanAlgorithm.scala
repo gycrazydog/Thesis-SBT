@@ -1,4 +1,4 @@
-package firstSparkApp
+package regularPathQuery
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
@@ -17,11 +17,12 @@ object DanAlgorithm {
   var tableName = "testgraph";
   var keyspace = "";
   def run(workerNum:Int):Unit = {
-    val sparkConf = new SparkConf().setAppName("DanAlgorithm : "+path).setMaster("local")
-      .set("spark.cassandra.connection.host", "127.0.0.1")
+    val sparkConf = new SparkConf().setAppName("DanAlgorithm : "+path)
+		.setMaster("spark://ubuntu:7077")      
+		.set("spark.cassandra.connection.host", "127.0.0.1")
     val sc = new SparkContext(sparkConf)
     //val nodes = sc.parallelize( 1 to 26, 3)
-    var masterStates : Array[(Edge[String],(Long,Long))] = Array()
+    var masterStates : HashSet[(Edge[String],(Long,Long))] = new HashSet()
     val initialNodes = Array(17L)
     val auto = GraphReader.automata(sc,path)
     val automata = auto.edges.collect()
@@ -45,10 +46,16 @@ object DanAlgorithm {
                                       .map(k=>(f._1,(f._2.getInt("srcid").toLong,f._2.getString("label"),k))))
                                       .distinct()
                                       .cache()
-    currentStates.collect().foreach(println("init state : ",_))
-    var visitedStates = sc.emptyRDD
+    //currentStates.collect().foreach(println("init state : ",_))
+    var visitedStates : RDD[(Edge[String],(Long,String,String))] = sc.emptyRDD
     var size = currentStates.count()
+    var i = 0
     while(size>0){
+      val nextTotalStates = visitedStates.union(currentStates).coalesce(3)
+      visitedStates = nextTotalStates
+      i = i+1
+      println("iteration:"+i)
+      println("currentStates : ",size)
         masterStates = masterStates ++ currentStates.filter(f=>f._2._3.split("-")(1).toInt==0 
                                                             || finalState.contains(f._1.dstId)).collect()
                                                             .map(f=>(f._1,(f._2._1,f._2._3.split("-")(0).toLong)))
@@ -68,6 +75,10 @@ object DanAlgorithm {
                                            (null,(f._1.srcid,f._2.getString("label"),f._2.getString("dstid")))
                                        })
                                        .filter(f=>f._1!=null)
+                                       .flatMap(f=>f._2._3.split(":")
+                                       .map(k=>(f._1,(f._2._1,f._2._2,k))))
+                                       .distinct()
+                                       .subtract(visitedStates)
                                        .cache()
         currentStates = nextStates
         size = currentStates.count()
@@ -75,19 +86,27 @@ object DanAlgorithm {
 //      visitedStates = nextGlobalMatches
 //      val nextStates = currentStates.
     }
-    masterStates.foreach(println("state : ",_))
-    var ans : Array[(VertexId,VertexId)] = Array()
-    while(masterStates.length>0){
-      val stopStates = masterStates.filter(p=>p._1.srcId==1L&&finalState.contains(p._1.dstId))
-      ans = ans ++  stopStates.map(f=>(f._2._1,f._2._2))
-      val nonStopStates = masterStates.filterNot(stopStates.contains)
-      var nextAns = nonStopStates.flatMap(f=>nonStopStates.map(v=>(v,f)))
-                                  .filter(p=>p._1._1.dstId==p._2._1.srcId&&p._1._2._2==p._2._2._1)
-                                  .map(p=>(Edge(p._1._1.srcId,p._2._1.dstId,p._2._1.attr),
-                                            (p._1._2._1,p._2._2._2)))
-      masterStates = nextAns
+    var ans : HashSet[(VertexId,VertexId)] = new HashSet()
+    var visited : HashSet[(Edge[String],(Long,Long))] = new HashSet()
+    var current = masterStates.filter(p=>p._1.srcId==1L)
+    while(current.size>0){
+      visited = visited ++ current
+      println("current : ",current.size)
+      println("ans size : ",ans.size)
+      val stopStates = current.filter(p=>p._1.srcId==1L&&finalState.contains(p._1.dstId))
+      ans = ans ++  stopStates.map(f=>f._2)
+      var nextAns = current.flatMap(s=>{
+      var temp: HashSet[(Edge[String],(Long,Long))] = new HashSet()
+        masterStates.map(t=>{
+          if(s._1.dstId==t._1.srcId&&s._2._2==t._2._1)
+            temp += ( (Edge(s._1.srcId,t._1.dstId,t._1.attr), (s._2._1,t._2._2)) )
+        })
+        temp
+      } ).filter(visited.contains(_)==false)
+                                  
+      current = nextAns
     }
-    ans.foreach(println("ans : ",_))
+    println("ans size : ",ans.size)
   }
   def main(args:Array[String]) = {
     path = args(0)
