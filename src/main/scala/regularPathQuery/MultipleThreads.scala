@@ -56,7 +56,7 @@ object MultipleThreads {
                           val Automata = tuple._2
                           val edge = tuple._1
                           Automata.attr.equals(edge.getString("label"))&&visitedStates.contains((Automata.srcId,edge.getLong("srcid")))
-                        }).flatMap(row=>row._1.get[String]("dstid").split(":").map(v=>(row._2.dstId,v.toLong)) ).filter(!visitedStates.contains(_))
+                        }).flatMap(row=>row._1.get[String]("dstid").split(":").map(v=>(row._2.dstId,v.split("-")(0).toLong)) ).filter(!visitedStates.contains(_))
                         .distinct()
                         .cache()
 //        println("iteration : "+i+ " count : "+nextStates.collect())

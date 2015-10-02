@@ -20,6 +20,7 @@ object DanAlgorithm {
     val sparkConf = new SparkConf().setAppName("DanAlgorithm : "+path)
 		.setMaster("spark://ubuntu:7077")      
 		.set("spark.cassandra.connection.host", "127.0.0.1")
+    println("------------------------------start"+path+"--------------------------")
     val sc = new SparkContext(sparkConf)
     //val nodes = sc.parallelize( 1 to 26, 3)
     var masterStates : HashSet[(Edge[String],(Long,Long))] = new HashSet()
@@ -86,13 +87,12 @@ object DanAlgorithm {
 //      visitedStates = nextGlobalMatches
 //      val nextStates = currentStates.
     }
+    println("masterStates : ",masterStates.size)
     var ans : HashSet[(VertexId,VertexId)] = new HashSet()
     var visited : HashSet[(Edge[String],(Long,Long))] = new HashSet()
     var current = masterStates.filter(p=>p._1.srcId==1L)
     while(current.size>0){
       visited = visited ++ current
-      println("current : ",current.size)
-      println("ans size : ",ans.size)
       val stopStates = current.filter(p=>p._1.srcId==1L&&finalState.contains(p._1.dstId))
       ans = ans ++  stopStates.map(f=>f._2)
       var nextAns = current.flatMap(s=>{
@@ -107,6 +107,8 @@ object DanAlgorithm {
       current = nextAns
     }
     println("ans size : ",ans.size)
+     ans.foreach(println)
+    println("---------------------------------------------------------------------")
   }
   def main(args:Array[String]) = {
     path = args(0)
