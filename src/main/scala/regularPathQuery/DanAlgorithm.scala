@@ -16,10 +16,11 @@ object DanAlgorithm {
   var path = "";
   var tableName = "testgraph";
   var keyspace = "";
+  var sparkMaster = "";
+  var cassandraMaster = "";
   def run(workerNum:Int):Unit = {
-    val sparkConf = new SparkConf().setAppName("DanAlgorithm : "+path)
-		.setMaster("spark://ubuntu:7077")      
-		.set("spark.cassandra.connection.host", "127.0.0.1")
+    val sparkConf = new SparkConf().setAppName("DanAlgorithm : "+path).setMaster(sparkMaster)
+      .set("spark.cassandra.connection.host", cassandraMaster)
     println("------------------------------start"+path+"--------------------------")
     val sc = new SparkContext(sparkConf)
     //val nodes = sc.parallelize( 1 to 26, 3)
@@ -120,6 +121,7 @@ object DanAlgorithm {
     while(current.size>0){
       visited = visited ++ current
       println("current : ",current.size)
+//      current.foreach(println)
       val stopStates = current.filter(p=>p._1.srcId==1L&&finalState.contains(p._1.dstId))
       ans = ans ++ stopStates.map(f=>f._2)
       var nextAns = current.flatMap(s=>{
@@ -132,14 +134,15 @@ object DanAlgorithm {
       } ).filter(visited.contains(_)==false)                          
       current = nextAns
     }
-    println("ans size : ",ans.size)
-    //ans.foreach(println("pair found :",_))
-    println("---------------------------------------------------------------------")
+//    println("ans size : ",ans.size)
+    ans.foreach(println("pair found :",_))
   }
   def main(args:Array[String]) = {
-    path = args(0)
-    tableName = args(2)
-    keyspace = args(1)
+    keyspace = args(0)
+    tableName = args(1)
+    path  = args(2)
+    sparkMaster = args(3)
+    cassandraMaster = args(4)
     run(3)
   }
   
