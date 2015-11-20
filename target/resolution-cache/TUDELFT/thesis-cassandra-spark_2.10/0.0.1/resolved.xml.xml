@@ -4,7 +4,7 @@
 		module="thesis-cassandra-spark_2.10"
 		revision="0.0.1"
 		status="integration"
-		publication="20150614163429"
+		publication="20151118101107"
 	>
 		<description>
 		Thesis-cassandra-spark
@@ -34,8 +34,13 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.5" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.5" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="eu.unicredit" name="hbase-rdd_2.10" rev="0.6.0" conf="compile->default(compile)"/>
 		<dependency org="com.datastax.spark" name="spark-cassandra-connector_2.10" rev="1.2.1" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-core_2.10" rev="1.2.2" conf="provided->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-graphx_2.10" rev="1.2.2" conf="provided->default(compile)"/>
+		<dependency org="org.apache.hbase" name="hbase-common" rev="0.98.6-cdh5.3.1" conf="provided->default(compile)"/>
+		<dependency org="org.apache.hbase" name="hbase-client" rev="0.98.6-cdh5.3.1" conf="provided->default(compile)"/>
+		<dependency org="org.apache.hbase" name="hbase-server" rev="0.98.6-cdh5.3.1" conf="provided->default(compile)"/>
+		<dependency org="org.json4s" name="json4s-jackson_2.10" rev="3.2.11" conf="provided->default(compile)"/>
 	</dependencies>
 </ivy-module>
