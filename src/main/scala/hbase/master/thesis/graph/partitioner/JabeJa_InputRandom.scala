@@ -5,6 +5,7 @@ import org.apache.spark.graphx._
 import org.apache.spark.graphx.PartitionStrategy._
 import java.io._
 import scala.collection.mutable.HashMap
+import scala.util.control.Breaks._
 object JabeJa_InputRandom {
   var TEMPERATURE = 2.0
   val TEMPERATUREDelta = 0.01
@@ -16,7 +17,8 @@ object JabeJa_InputRandom {
   var color: Array[Int] = Array()
   var toNeighbors : Map[Int,Set[Int]] = Map.empty
   var fromNeighbors : Map[Int,Set[Int]] = Map.empty
-  
+  var InputNodeNumber = Array.ofDim[Int](350)
+  var CrossEdgeNumber = Array.ofDim[Int](350)
   def swap(cur : Int,neigh : Int) :Unit = {
       val temp = color(neigh)
       color(neigh) = color(cur)
@@ -65,7 +67,7 @@ object JabeJa_InputRandom {
     println("start cross edges : " + edges.filter( e=>color(e.dstId.toInt)!=color(e.srcId.toInt) ).size )
     pp.diff(qq).foreach(println("p-q ",_))
     qq.diff(pp).foreach(println("q-p ",_))
-    for(counter <- 0 to 350){
+    for(counter <- 1 to 350){
       for(currentNode <- 0 to nodes-1){
   //      val currentNode = 8381 
         var bestNeibour = -1;
@@ -124,8 +126,17 @@ object JabeJa_InputRandom {
          }
         }
         writer.write("round : "+counter+"current input nodes : " + List.range(0,nodes).filter(isInputNode(_,fromNeighborColors,InDegrees)).size+"\n")
-        println("round : "+counter+" current cross edges : " + edges.filter( e=>color(e.dstId.toInt)!=color(e.srcId.toInt)).size )
-        println("current input nodes : " + List.range(0,nodes).filter(isInputNode(_,fromNeighborColors,InDegrees)).size)
+        InputNodeNumber(counter) = edges.filter( e=>color(e.dstId.toInt)!=color(e.srcId.toInt) )
+                                                   .map(x=>x.dstId).toList.removeDuplicates.size
+        CrossEdgeNumber(counter) = edges.filter( e=>color(e.dstId.toInt)!=color(e.srcId.toInt)).size 
+        println("round : "+counter+" current cross edges : " + CrossEdgeNumber(counter))
+        println("current input nodes : " + InputNodeNumber(counter)) 
+        if(counter>10
+            &&InputNodeNumber(counter)==InputNodeNumber(counter-10)
+            &&CrossEdgeNumber(counter)==CrossEdgeNumber(counter-10))
+          {
+            break
+          }
       }
       writer.close()
       println("final input nodes : " + List.range(0,nodes).filter(isInputNode(_,fromNeighborColors,InDegrees)).size)

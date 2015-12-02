@@ -5,6 +5,7 @@ import org.apache.spark.graphx._
 import org.apache.spark.graphx.PartitionStrategy._
 import java.io._
 import scala.collection.mutable.HashMap
+import scala.util.control.Breaks._
 object JabeJa_Random {
   var TEMPERATURE = 2.0
   val TEMPERATUREDelta = 0.01
@@ -15,7 +16,8 @@ object JabeJa_Random {
   var keyspace = "";
   var colorNum = 0
   var color: Array[Int] = Array()
-  
+  var InputNodeNumber = Array.ofDim[Int](350)
+  var CrossEdgeNumber = Array.ofDim[Int](350)
   def swap(cur : Int,neigh : Int) :Unit = {
       val temp = color(neigh)
       color(neigh) = color(cur)
@@ -59,11 +61,11 @@ object JabeJa_Random {
                                                    .map(x=>x.dstId).toList.removeDuplicates.size+"\n")
   var currentCrossEdgesNum = edges.filter(v=>color(v.dstId.toInt)!=color(v.srcId.toInt)).size
   val r = scala.util.Random
-  for(counter <- 0 to 350){
+  for(counter <- 1 to 350){
     for(currentNode <- 0 to nodes-1){
       var bestNeibour = -1;
       var leastCE = -1.0;
-      val currentNeighbors = neighbors.get(currentNode).get
+      val currentNeighbors = neighbors.getOrElse(currentNode,Array())
       var RandomNeighbors : Set[Int]= Set()
         for(x<-1 to edges.size/nodes*2){
            var newNeighbor = scala.util.Random.nextInt.abs%nodes
@@ -106,9 +108,17 @@ object JabeJa_Random {
       }
     }
     writer.write(edges.filter( e=>color(e.dstId.toInt)!=color(e.srcId.toInt)).size+"\n")
-    println("round : "+counter+" current cross edges : " + edges.filter( e=>color(e.dstId.toInt)!=color(e.srcId.toInt)).size )
-    println("current input nodes : " + edges.filter( e=>color(e.dstId.toInt)!=color(e.srcId.toInt) )
-                                                   .map(x=>x.dstId).toList.removeDuplicates.size)
+    InputNodeNumber(counter) = edges.filter( e=>color(e.dstId.toInt)!=color(e.srcId.toInt) )
+                                                   .map(x=>x.dstId).toList.removeDuplicates.size
+    CrossEdgeNumber(counter) = edges.filter( e=>color(e.dstId.toInt)!=color(e.srcId.toInt)).size 
+    println("round : "+counter+" current cross edges : " + CrossEdgeNumber(counter))
+    println("current input nodes : " + InputNodeNumber(counter))
+    if(counter>10
+        &&InputNodeNumber(counter)==InputNodeNumber(counter-10)
+        &&CrossEdgeNumber(counter)==CrossEdgeNumber(counter-10))
+      {
+        break
+      }
    }
     writer.close()
     println("final cross edges : " + edges.filter( e=>color(e.dstId.toInt)!=color(e.srcId.toInt)).size )

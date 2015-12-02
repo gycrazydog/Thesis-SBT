@@ -39,7 +39,7 @@ object TwoWayJoin {
       var i = 0
       while(size>0){
 //        currentStates.collect().foreach(println("current state : ",_))
-        val nextTotalStates = visitedStates.union(currentStates).repartition(workerNum)
+        val nextTotalStates = visitedStates.union(currentStates).coalesce(workerNum)
         visitedStates = nextTotalStates
         val nextTrans = currentTrans.map(v=>(v.dstId,v))
                         .join(automata.map(v=>(v.srcId,v)))
@@ -70,7 +70,7 @@ object TwoWayJoin {
         val nextStates = nextEdges
                         .join(currentStates)
                         .map(v=>v._2)
-                        .subtract(visitedStates) 
+                        .subtract(visitedStates)
                         //.filter(!visitedStates.contains(_))
                         .distinct()
 //        println("iteration : "+i+ " count : "+nextStates.collect())

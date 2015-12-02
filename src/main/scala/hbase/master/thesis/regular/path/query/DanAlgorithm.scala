@@ -35,6 +35,7 @@ object DanAlgorithm {
     val auto = GraphReader.automata(sc,path)
     val automata = auto.edges
     val finalState = HashSet(auto.vertices.count().toLong)
+    val startTime = System.currentTimeMillis 
     var currentTrans = automata.filter(e=>e.srcId==1L)
     val labelset = currentTrans.map(v=>v.attr).collect.toSet
     val inputNodes = sc.hbase[String](tableName,Set("to"))
@@ -70,7 +71,7 @@ object DanAlgorithm {
     var size = currentStates.count()
     var i = 0
     while(size>0){
-      val nextTotalStates = visitedStates.union(currentStates)
+      val nextTotalStates = visitedStates.union(currentStates).coalesce(3)
       visitedStates = nextTotalStates
       i = i+1
       println("iteration:"+i)
@@ -109,6 +110,7 @@ object DanAlgorithm {
 //      val nextStates = currentStates.
     }
     println("masterStates : ",masterStates.size)
+    println("small fragments : ",masterStates.filter(v=>v._1._2-v._2._2==1&&false==finalState.contains(v._1._2)).size)
     var ans : HashSet[(String,String)] = new HashSet()
     var visited : HashSet[((String,VertexId),(String,VertexId))] = new HashSet()
     var current = masterStates.filter(p=>p._2._2==1L)
@@ -125,6 +127,9 @@ object DanAlgorithm {
       current = nextCurrent
     }
     println("ans size : ",ans.size)
+    val endTime = System.currentTimeMillis
+    println("time : "+(endTime-startTime))
+    println("-------------------------------------------------------------")
 //    ans.foreach(println("pair found :",_))
   }
   def main(args:Array[String]) = {

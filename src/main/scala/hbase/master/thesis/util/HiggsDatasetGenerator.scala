@@ -18,7 +18,7 @@ object HiggsDatasetGenerator {
     for(x<-0 to 3){
       val edges = sc.textFile(path+files(x), 3).map(line=>{
                   val edge = line.split(" ")
-                  Edge(edge(0).toLong,edge(1).toLong,x)
+                  Edge(edge(0).toLong-1,edge(1).toLong-1,x)
       }).collect()
       G = G ++ edges
     }

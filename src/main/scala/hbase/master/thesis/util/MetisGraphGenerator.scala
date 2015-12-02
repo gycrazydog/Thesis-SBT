@@ -38,6 +38,7 @@ object MetisGraphGenerator {
 //    val writer = new PrintWriter(new File("/home/crazydog/alibaba-dataset/metisgraph/alibaba.input.metis.txt"))
     val writer = new PrintWriter(new File(output_path))
     var current = 0
+    writer.write(lines.size+" "+sc.textFile(path, 3).count+"\n")
     lines.foreach(v=>{
       current = current+1
       while(current<v._1){
