@@ -24,8 +24,10 @@ import org.apache.hadoop.hbase.client.Scan;
 
 
 object HBaseConnectorTest {
+  var tableName = ""
   implicit val config = HBaseConfig(
-    
+    "hbase.rootdir" -> "hdfs://hadoop-m:8020/hbase",
+    "hbase.zookeeper.quorum" -> "hadoop-m"
   )
   def solveAndMerge(sc: SparkContext) = {
     val startTime = System.currentTimeMillis 
@@ -48,7 +50,7 @@ object HBaseConnectorTest {
       "to"   ->  Set("0")    
     )
     val startTime = System.currentTimeMillis 
-   val hBaseRDD = sc.hbase[String]("test", columns)
+   val hBaseRDD = sc.hbase[String](tableName, columns)
     println(hBaseRDD.count)
      val endTime = System.currentTimeMillis
     println("time : "+(endTime-startTime))
@@ -70,9 +72,15 @@ object HBaseConnectorTest {
 //    rdd.collect().foreach(println)
     println("time : "+(endTime-startTime))
   }
+  def simpleTest(sc:SparkContext) = {
+    
+  }
   def main(args:Array[String]) = {
+    tableName = args(0)
     val sparkConf = new SparkConf().setAppName("HBaseTest : ").setMaster("local[3]")
     val sc = new SparkContext(sparkConf)
+    println(config.get.get("hbase.zookeeper.quorum"))
+//    simpleTest(sc)
     solveInOneGo(sc)
 //    multipleScan(sc)
 //    var rowranges = ListBuffer(new MultiRowRangeFilter.RowRange("a000002",true,"a000010",true),new MultiRowRangeFilter.RowRange("a000012",true,"a000020",true))

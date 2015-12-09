@@ -19,7 +19,10 @@ object PrintGraphStructure {
   var sparkMaster = "";
   var partition_path = "";
   var inputnodes : Set[String] = new HashSet()
-  implicit val config = HBaseConfig()
+  implicit val config = HBaseConfig(
+    "hbase.rootdir" -> "hdfs://hadoop-m:8020/hbase",
+    "hbase.zookeeper.quorum" -> "hadoop-m"
+  )
   def fromHBase(): Unit = {
     val sparkConf = new SparkConf().setAppName("JabeJa : ").setMaster(sparkMaster)
     val sc = new SparkContext(sparkConf)

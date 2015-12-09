@@ -10,6 +10,7 @@ libraryDependencies += "org.apache.hbase" % "hbase-common" % "0.98.6-cdh5.3.1"
 libraryDependencies += "org.apache.hbase" % "hbase-client" % "0.98.6-cdh5.3.1"
 libraryDependencies += "org.apache.hbase" % "hbase-server" % "0.98.6-cdh5.3.1"
 libraryDependencies += "org.json4s" %% "json4s-jackson" % "3.2.11"
+libraryDependencies += "org.apache.hbase" % "hbase-hadoop-compat" % "0.98.8-hadoop2"
 assemblyMergeStrategy in assembly := {
   case PathList("javax", "servlet", xs @ _*)         => MergeStrategy.first
   case PathList("org", "apache", xs @ _*)         => MergeStrategy.first

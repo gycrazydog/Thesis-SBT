@@ -13,7 +13,10 @@ import hbase.master.thesis.util.GraphReader
 object TwoWayJoin {
   var path = "";
   var tableName = "testgraph";
-  implicit val config = HBaseConfig()
+  implicit val config = HBaseConfig(
+    "hbase.rootdir" -> "hdfs://hadoop-m:8020/hbase",
+    "hbase.zookeeper.quorum" -> "hadoop-m"
+  )
   def run(sc:SparkContext,workerNum:Int):Set[(String,String)] = {
       println("------------------------------start"+path+"--------------------------")
     val auto = GraphReader.automata(sc,path)
@@ -86,10 +89,11 @@ object TwoWayJoin {
       ans
   }
   def main(args:Array[String]){
-      val sparkConf = new SparkConf().setAppName("CassandraMultipleThread : "+path).setMaster("local[3]")
-      val sc = new SparkContext(sparkConf)
       path = args(0)
       tableName = args(1)
-      val asn = run(sc,args(2).toInt)
+      val sparkMaster = args(2)
+      val sparkConf = new SparkConf().setAppName("Two Way Join : "+path).setMaster(sparkMaster)
+      val sc = new SparkContext(sparkConf)
+      val asn = run(sc,args(3).toInt)
   }
 }

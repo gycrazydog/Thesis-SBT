@@ -17,21 +17,19 @@ object DanAlgorithm {
   var path = "";
   var tableName = "testgraph";
   var sparkMaster = "";
-  var inputnodes : Set[String] = new HashSet()
-  implicit val config = HBaseConfig()
-  def init(sc:SparkContext) = {
-    val columns = Map(
+  implicit val config = HBaseConfig(
+    "hbase.rootdir" -> "hdfs://hadoop-m:8020/hbase",
+    "hbase.zookeeper.quorum" -> "hadoop-m"
+  )
+  def run(sc:SparkContext,workerNum:Int):Unit = {
+    //val nodes = sc.parallelize( 1 to 26, 3)
+    var columns = Map(
       "property"   ->  Set("inputnode")    
     )
     val rdd = sc.hbase[String](tableName,columns)
-    inputnodes = rdd.filter(v=>v._2.contains("property")).map(v=>v._1).collect().toSet
+    val inputnodes = rdd.filter(v=>v._2.get("property").get.contains("inputnode")).map(v=>v._1).collect().toSet
     println("input node size "+inputnodes.size)
-  }
-  def run(sc:SparkContext):Unit = {
-    //val nodes = sc.parallelize( 1 to 26, 3)
-    init(sc)
     var masterStates : HashSet[((String, VertexId), (String, VertexId))] = new HashSet()
-    val initialNodes = Array(17L)
     val auto = GraphReader.automata(sc,path)
     val automata = auto.edges
     val finalState = HashSet(auto.vertices.count().toLong)
@@ -44,7 +42,7 @@ object DanAlgorithm {
                         .flatMap(v=>v._2.map(k=>(v._1,k._1,k._2)))
                         .flatMap(v=>v._3.split(":").map(k=>(v._2,(v._1,k))))
                         
-    val columns = Map(
+    columns = Map(
       "to"   -> labelset    
     )
     val startNodes = sc.hbase[String](tableName,columns)
@@ -52,14 +50,14 @@ object DanAlgorithm {
                         .flatMap(v=>v._2.map(k=>(v._1,k._1,k._2)))
                         .flatMap(v=>v._3.split(":").map(k=>(v._2,(v._1,k))))
                         
-    val inputStates = inputNodes.join(automata.map(e=>(e.attr,e))) 
+    val inputStates = inputNodes.join(automata.map(e=>(e.attr,e)))
                          .map(f=>((f._2._1._2,f._2._2.dstId),(f._2._1._1,f._2._2.srcId)))
                          .cache
     val startStates = startNodes.join(currentTrans.map(e=>(e.attr,e))) 
                          .map(f=>((f._2._1._2,f._2._2.dstId),(f._2._1._1,f._2._2.srcId)))
                                       .cache()
     var currentStates = inputStates.union(startStates)
-                        .coalesce(3).distinct().cache()
+                        .coalesce(workerNum).distinct().cache()
     currentTrans = automata
 //    println("the inputnode number==11 : ",currentStates.filter(f=>f._1.srcId==3&&f._1.dstId==4
 //                                                        &&f._1.attr=="6"
@@ -71,7 +69,7 @@ object DanAlgorithm {
     var size = currentStates.count()
     var i = 0
     while(size>0){
-      val nextTotalStates = visitedStates.union(currentStates).coalesce(3)
+      val nextTotalStates = visitedStates.union(currentStates).coalesce(workerNum)
       visitedStates = nextTotalStates
       i = i+1
       println("iteration:"+i)
@@ -140,7 +138,6 @@ object DanAlgorithm {
     val sc = new SparkContext(sparkConf)
     println("------------------------------start"+path+"--------------------------")
 //    init(sc)
-    run(sc)
+    run(sc,args(3).toInt+1)
   }
-  
 }

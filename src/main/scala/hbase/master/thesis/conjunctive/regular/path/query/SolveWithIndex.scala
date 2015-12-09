@@ -23,7 +23,10 @@ object SolveWithIndex {
   var tree : Array[(Int,List[Vertex])] = Array.empty
   var levels = 0
   var nodes = 0
-  implicit val config = HBaseConfig()
+  implicit val config = HBaseConfig(
+    "hbase.rootdir" -> "hdfs://hadoop-m:8020/hbase",
+    "hbase.zookeeper.quorum" -> "hadoop-m"
+  )
   case class SrcId(srcid : Long) 
   class Vertex(
     var id : Long,
