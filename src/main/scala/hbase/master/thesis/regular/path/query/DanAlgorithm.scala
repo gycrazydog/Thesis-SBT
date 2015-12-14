@@ -138,10 +138,13 @@ object DanAlgorithm {
     path = args(0)
     tableName = args(1)
     sparkMaster = args(2)
-    val sparkConf = new SparkConf().setAppName("DanAlgorithm : "+path).setMaster(sparkMaster)
+    val sparkConf = new SparkConf().setAppName("DanAlgorithm : "+path+" "+tableName).setMaster(sparkMaster)
     val sc = new SparkContext(sparkConf)
     println("------------------------------start"+path+"--------------------------")
 //    init(sc)
-    run(sc,args(3).toInt+1)
+    for(x <- 1 to 10){
+      run(sc,args(3).toInt+1)
+    }
   }
+  
 }

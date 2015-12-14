@@ -18,7 +18,7 @@ object TwoWayJoin {
     "hbase.zookeeper.quorum" -> "hadoop-m"
   )
   def run(sc:SparkContext,workerNum:Int):Set[(String,String)] = {
-      println("------------------------------start"+path+"--------------------------")
+      println("------------------------------start"+path+" "+tableName+"--------------------------")
     val auto = GraphReader.automata(sc,path)
     val automata = auto.edges
     val finalState = HashSet(auto.vertices.count().toLong)
@@ -31,7 +31,7 @@ object TwoWayJoin {
     )
     //RDD[((edge.dstid,autoedge.dstid),edge.startid)]
     val startedges = sc.hbase[String](tableName, columns)
-                        .repartition(workerNum)
+                       .repartition(workerNum)
                        .flatMap(v=>v._2.values.map(k=>(v._1,k)))
                        .flatMap(v=>v._2.map(k=>(v._1,k._1,k._2)))
                        .flatMap(v=>v._3.split(":").map(k=>(v._2,(v._1,k))))
@@ -59,7 +59,6 @@ object TwoWayJoin {
         //        currentStates.collect.foreach(v=>println("current State : "+v))
         ans = ans ++ currentStates.filter(v=>finalState.contains(v._1._2)).map(v=>(v._2,v._1._1)).collect()
         val labelset = currentTrans.collect.map(v=>v.attr).toSet
-        println("Answer Size : "+ans.size)
         //RDD[((edge.dstid,autoedge.dstid),edge.startid)]
         //RDD[((edge.srcid,autoedge.srcid),(edge.dstid,autoedge.dstid))]
         val columns = Map(
@@ -83,7 +82,7 @@ object TwoWayJoin {
         println("finishing calculating currentStates!")
       }
       val endTime = System.currentTimeMillis
-//      ans.map(v=>println("vertex reached!!! "+v))
+      //ans.map(v=>println("vertex reached!!! "+v))
       println("number of pairs : "+ans.size)
       println("time : "+(endTime-startTime))
       println("-------------------------------------------------------------")
@@ -93,8 +92,10 @@ object TwoWayJoin {
       path = args(0)
       tableName = args(1)
       val sparkMaster = args(2)
-      val sparkConf = new SparkConf().setAppName("Two Way Join : "+path).setMaster(sparkMaster)
+      val sparkConf = new SparkConf().setAppName("Two Way Join : "+path+" "+tableName).setMaster(sparkMaster)
       val sc = new SparkContext(sparkConf)
-      val asn = run(sc,args(3).toInt)
+      for(x <- 1 to 10){
+         val asn = run(sc,args(3).toInt) 
+      }
   }
 }
