@@ -61,6 +61,7 @@ object MultiWayJoin {
     
     var currentStates = startedges.join(realAutos.map(e=>(e.attr,e)))
                         .map(f=>((f._2._1._2,f._2._2.dstId),(f._2._1._1,f._2._2.srcId)))
+                        .repartition(workerNum)
                         .cache()
     while(baseStates.count()>0){
       val nextBase = baseStates.join(selfStates)
@@ -68,8 +69,9 @@ object MultiWayJoin {
                                 .map(v=>(v._2,v._1))
                                 .subtract(currentStates)
                                 .distinct()
+                                .cache()
       baseStates = nextBase
-      val nextStates = currentStates.union(baseStates).coalesce(3)
+      val nextStates = currentStates.union(baseStates).repartition(workerNum)
       currentStates = nextStates
     }
     // no self loop anymore
@@ -84,8 +86,8 @@ object MultiWayJoin {
       var var1 = v._1._2.toInt-1
       var var2 = v._2._2.toInt-1
       keys.filter(key=>key(var1)==v._1._1.hashCode()%as(var1)&&key(var2)==v._2._1.hashCode()%as(var2))
-      .map(key=>(key.mkString("+"),v))
-    }).groupByKey.cache()
+      .map(key=>(key.mkString("+"),List(v)))
+    }).reduceByKey((a,b)=>a++b).cache()
     println("size of newStates : "+newStates.count())
     ans = newStates.map(v=>{
       var tempans : HashSet[(String,String)] = new HashSet()

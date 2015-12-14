@@ -50,14 +50,16 @@ object DanAlgorithm {
                         .flatMap(v=>v._2.map(k=>(v._1,k._1,k._2)))
                         .flatMap(v=>v._3.split(":").map(k=>(v._2,(v._1,k))))
                         
-    val inputStates = inputNodes.join(automata.map(e=>(e.attr,e)))
+    val inputStates = inputNodes.join(automata.filter(e=>e.srcId!=1L).map(e=>(e.attr,e)))
                          .map(f=>((f._2._1._2,f._2._2.dstId),(f._2._1._1,f._2._2.srcId)))
-                         .cache
+                         .cache()
     val startStates = startNodes.join(currentTrans.map(e=>(e.attr,e))) 
                          .map(f=>((f._2._1._2,f._2._2.dstId),(f._2._1._1,f._2._2.srcId)))
                                       .cache()
+    println("startStates number : "+startStates.count())
+    println("inputStates number : "+inputStates.count())
     var currentStates = inputStates.union(startStates)
-                        .coalesce(workerNum).distinct().cache()
+                        .coalesce(workerNum).cache()
     currentTrans = automata
 //    println("the inputnode number==11 : ",currentStates.filter(f=>f._1.srcId==3&&f._1.dstId==4
 //                                                        &&f._1.attr=="6"
@@ -109,6 +111,8 @@ object DanAlgorithm {
     }
     println("masterStates : ",masterStates.size)
     println("small fragments : ",masterStates.filter(v=>v._1._2-v._2._2==1&&false==finalState.contains(v._1._2)).size)
+    println("reached final state ",masterStates.filter(v=>finalState.contains(v._1._2)).size)
+    println("reached output node ",masterStates.filter(v=>inputnodes.contains(v._1._1)).size)
     var ans : HashSet[(String,String)] = new HashSet()
     var visited : HashSet[((String,VertexId),(String,VertexId))] = new HashSet()
     var current = masterStates.filter(p=>p._2._2==1L)

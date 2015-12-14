@@ -31,6 +31,7 @@ object TwoWayJoin {
     )
     //RDD[((edge.dstid,autoedge.dstid),edge.startid)]
     val startedges = sc.hbase[String](tableName, columns)
+                        .repartition(workerNum)
                        .flatMap(v=>v._2.values.map(k=>(v._1,k)))
                        .flatMap(v=>v._2.map(k=>(v._1,k._1,k._2)))
                        .flatMap(v=>v._3.split(":").map(k=>(v._2,(v._1,k))))
@@ -82,7 +83,7 @@ object TwoWayJoin {
         println("finishing calculating currentStates!")
       }
       val endTime = System.currentTimeMillis
-      ans.map(v=>println("vertex reached!!! "+v))
+//      ans.map(v=>println("vertex reached!!! "+v))
       println("number of pairs : "+ans.size)
       println("time : "+(endTime-startTime))
       println("-------------------------------------------------------------")
