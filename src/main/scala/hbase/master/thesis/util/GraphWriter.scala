@@ -50,7 +50,7 @@ object GraphWriter {
     println(partitionNum)
     val admin = new HBaseAdmin(config.get)
     if(false == admin.tableExists(tableName)){
-        val splitKeys = List.range(0, partitionNum).map(v=>Bytes.toBytes(('a'.toInt+v).toChar+"000000"))
+        val splitKeys = List.range(1, partitionNum).map(v=>Bytes.toBytes(('a'.toInt+v).toChar+"000000"))
                                                     .toArray
         val tableDescriptor = new HTableDescriptor(Bytes.toBytes(tableName))
         tableDescriptor.addFamily(new HColumnDescriptor("to"))
