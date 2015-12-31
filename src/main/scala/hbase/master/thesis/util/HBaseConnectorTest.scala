@@ -37,7 +37,7 @@ object HBaseConnectorTest {
     val column1 = Map(
       "to"   ->  Set("1")    
     )
-     val hBaseRDD = sc.hbase[String]("test", columns)
+    val hBaseRDD = sc.hbase[String]("test", columns)
     val hBaseRDD1 = sc.hbase[String]("test", column1)
     val finalRDD = hBaseRDD.union(hBaseRDD1)
     println("aaahahahaha "+finalRDD.count())
@@ -50,7 +50,7 @@ object HBaseConnectorTest {
       "to"   ->  Set("0")    
     )
     val startTime = System.currentTimeMillis 
-   val hBaseRDD = sc.hbase[String](tableName, columns)
+    val hBaseRDD = sc.hbase[String](tableName, columns)
     println(hBaseRDD.count)
      val endTime = System.currentTimeMillis
     println("time : "+(endTime-startTime))

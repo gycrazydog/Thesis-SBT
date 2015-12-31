@@ -21,10 +21,10 @@ object TwoWayJoin {
       println("------------------------------start"+path+" "+tableName+"--------------------------")
     val auto = GraphReader.automata(sc,path)
     val automata = auto.edges
-    val finalState = HashSet(auto.vertices.count().toLong)
+    val finalState = auto.vertices.filter(v=>v._2=="final").map(v=>v._1).collect().toSet
     val startTime = System.currentTimeMillis 
     var ans : Set[(String,String)] = new HashSet()
-    var currentTrans = automata.filter(e=>e.srcId==1L)
+    var currentTrans = automata.filter(e=>e.srcId==0L)
     val labelset = currentTrans.collect.map(v=>v.attr).toSet
     val columns = Map(
       "to"   -> labelset    
@@ -35,7 +35,7 @@ object TwoWayJoin {
                        .flatMap(v=>v._2.values.map(k=>(v._1,k)))
                        .flatMap(v=>v._2.map(k=>(v._1,k._1,k._2)))
                        .flatMap(v=>v._3.split(":").map(k=>(v._2,(v._1,k))))
-    var currentStates =  startedges.join(currentTrans.map(e=>(e.attr,e))) 
+    var currentStates =  startedges.join(currentTrans.map(e=>(e.attr,e)))
                          .map(f=>((f._2._1._2,f._2._2.dstId),f._2._1._1))
                          .cache()
       var size = currentStates.count()
@@ -94,8 +94,9 @@ object TwoWayJoin {
       val sparkMaster = args(2)
       val sparkConf = new SparkConf().setAppName("Two Way Join : "+path+" "+tableName).setMaster(sparkMaster)
       val sc = new SparkContext(sparkConf)
+      val asn = run(sc,args(3).toInt) 
       for(x <- 1 to 10){
-         val asn = run(sc,args(3).toInt) 
+         
       }
   }
 }

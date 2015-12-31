@@ -14,10 +14,7 @@ object SolveInOneGo {
   var path = "";
   var tableName = "testgraph";
   var keyspace = "";
-  implicit val config = HBaseConfig(
-    "hbase.rootdir" -> "hdfs://hadoop-m:8020/hbase",
-    "hbase.zookeeper.quorum" -> "hadoop-m"
-  )
+  implicit val config = HBaseConfig()
   case class State(startid : Long,srcid : Long, edge : Edge[String])
    def run(sc:SparkContext,workerNum:Int):Set[((String,String),Long)] = {
     println("------------------------------start"+path+"--------------------------")
