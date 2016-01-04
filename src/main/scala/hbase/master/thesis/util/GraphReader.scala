@@ -8,8 +8,8 @@ import scala.collection.mutable.HashMap
 // To make some of the examples work we will also need RDD
 import org.apache.spark.rdd.RDD
 object GraphReader {
-  def automata(sc : SparkContext,path : String) : Graph[Any,String] = {
-     val rdd = sc.textFile(path, 3).cache()
+  def automata(sc : SparkContext,path : String,workerNum: Int) : Graph[Any,String] = {
+     val rdd = sc.textFile(path, workerNum).cache()
      val max_id = rdd.filter(line=>line.split(" ")(0)!="final").map(line=>line.split(" ").dropRight(1).map(v=>v.toLong).max).max()
      val finalstates = rdd.filter(line=>line.split(" ")(0)=="final").map(line=>line.split(" ")(1).toLong).collect().toSet
      val temp = List.range(0L, max_id+1)
@@ -50,7 +50,7 @@ object GraphReader {
      val path = args(0)
      val sparkConf = new SparkConf().setAppName("Graph Reader").setMaster("local")
      val sc = new SparkContext(sparkConf)
-     val rdd = automata(sc,path)
+     val rdd = automata(sc,path,3)
      rdd.vertices.filter(v=>v._2=="final").collect().foreach(f=>println(f))
   }
 }

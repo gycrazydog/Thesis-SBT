@@ -22,6 +22,7 @@ object DanAlgorithm {
     "hbase.zookeeper.quorum" -> "hadoop-m"
   )
   def run(sc:SparkContext,workerNum:Int):Unit = {
+    println("------------------------------start"+path+"--------------------------")
     //val nodes = sc.parallelize( 1 to 26, 3)
     var columns = Map(
       "property"   ->  Set("inputnode")    
@@ -30,10 +31,9 @@ object DanAlgorithm {
     val inputnodes = rdd.filter(v=>v._2.get("property").get.contains("inputnode")).map(v=>v._1).collect().toSet
     println("input node size "+inputnodes.size)
     var masterStates : HashSet[((String, VertexId), (String, VertexId))] = new HashSet()
-    val auto = GraphReader.automata(sc,path)
+    val auto = GraphReader.automata(sc,path,workerNum)
     val automata = auto.edges
-    val finalState = HashSet(auto.vertices.count().toLong)
-    val startTime = System.currentTimeMillis 
+    val finalState = auto.vertices.filter(v=>v._2=="final").map(v=>v._1).collect().toSet
     var currentTrans = automata.filter(e=>e.srcId==1L)
     val labelset = currentTrans.map(v=>v.attr).collect.toSet
     val inputNodes = sc.hbase[String](tableName,Set("to"))
@@ -129,8 +129,6 @@ object DanAlgorithm {
       current = nextCurrent
     }
     println("ans size : ",ans.size)
-    val endTime = System.currentTimeMillis
-    println("time : "+(endTime-startTime))
     println("-------------------------------------------------------------")
 //    ans.foreach(println("pair found :",_))
   }
@@ -138,13 +136,28 @@ object DanAlgorithm {
     path = args(0)
     tableName = args(1)
     sparkMaster = args(2)
+    var maxt = Long.MinValue
+    var mint = Long.MaxValue
+    var sumt = 0L
     val sparkConf = new SparkConf().setAppName("DanAlgorithm : "+path+" "+tableName).setMaster(sparkMaster)
     val sc = new SparkContext(sparkConf)
-    println("------------------------------start"+path+"--------------------------")
 //    init(sc)
-    for(x <- 1 to 10){
-      run(sc,args(3).toInt+1)
-    }
+    val files = sc.wholeTextFiles(path).map(_._1).collect()
+//      files.foreach(println)
+    files.map(v=>{
+         path = v
+         val startTime = System.currentTimeMillis
+         val asn = run(sc,args(3).toInt) 
+         val endTime = System.currentTimeMillis
+         val t = (endTime-startTime)
+         sumt = sumt + t
+         if(t>maxt) maxt = t
+         if(t<mint) mint = t
+         println("time : "+t)
+      })
+      println("maxt : ",maxt)
+      println("mint : ",mint)
+      println("avgt : ",sumt/files.size)
   }
   
 }

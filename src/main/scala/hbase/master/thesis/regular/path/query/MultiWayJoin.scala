@@ -36,10 +36,9 @@ object MultiWayJoin {
   }
   def run(sc:SparkContext,workerNum:Int,Histogram: String):Set[(String,String)] = {
       println("------------------------------start"+" "+path+tableName+"--------------------------")
-    val auto = GraphReader.automata(sc,path)
+    val auto = GraphReader.automata(sc,path,workerNum)
     val automata = auto.edges
     val finalState = auto.vertices.filter(v=>v._2=="final").map(v=>v._1).collect().toSet
-    val startTime = System.currentTimeMillis 
     var ans : Set[(String,String)] = new HashSet()
     val labelset = automata.collect.map(v=>v.attr).toSet
     val histogram = sc.textFile(Histogram, workerNum).map(line=>(line.split(" ")(0),line.split(" ")(1).toInt)).collect.toMap
@@ -53,10 +52,9 @@ object MultiWayJoin {
                           .sortBy(f=>f._1)
                           .map(f=>f._2)
     rs.foreach(println("rs : ",_))
-    val as = SolveLagrangean.solve(rs, 64)
+    val as = SolveLagrangean.solve(rs, 64).map(Math.ceil(_).toInt)
     as.foreach(println("as : ",_))
-    return Set()
-    val keys = genKeys(0,as.map(Math.ceil(_).toInt),Array(),as.size)
+    val keys = genKeys(0,as,Array(),as.size)
     val columns = Map(
       "to"   -> labelset    
     )
@@ -74,9 +72,12 @@ object MultiWayJoin {
                         })
                         .repartition(workerNum)
                         .cache()
+//    println("current states size : "+currentStates.count)
     val newStates = currentStates.flatMap(v=>{
       var var1 = v._1.toInt-1
       var var2 = v._1.toInt
+//      println("key1 : "+Math.abs(v._2._1.hashCode())%as(var1))
+//      println("key2 : "+Math.abs(v._2._2.hashCode())%as(var2))
       keys.filter(key=>key(var1)==Math.abs(v._2._1.hashCode())%as(var1)&&key(var2)==Math.abs(v._2._2.hashCode())%as(var2))
       .map(key=>(key.mkString("+"),List(v)))
     }).reduceByKey((a,b)=>a++b).cache()
@@ -98,13 +99,14 @@ object MultiWayJoin {
       visited = visited ++ current
       visited.toList
     })
+//    println("temprdd size : "+temprdd.count)
     var currentTrans = sc.parallelize(queryList._2, workerNum)
     var continuePoints = currentTrans.map(e=>e.srcId).collect.toSet
     var visitedStates : RDD[((String,VertexId),(String,VertexId))] = temprdd.flatMap(f=>f).cache
 //        visitedStates.collect.foreach(println("visited state : ",_))
-//    println("visited states size :"+visitedStates.count())
-    var continueStates = visitedStates.filter(f=>continuePoints.contains(f._1._2))
-//    println("continue states size : "+continueStates.count())
+    println("visited states size :"+visitedStates.count())
+    var continueStates = visitedStates.filter(f=>continuePoints.contains(f._1._2)).cache()
+    println("continue states size : "+continueStates.count())
     while(continueStates.count()>0){
       val nextEdges = allEdges.join(currentTrans.map(e=>(e.attr,e)))
                         .map(f=> ((f._2._1._1,f._2._2.srcId) , (f._2._1._2,f._2._2.dstId)) )
@@ -126,21 +128,37 @@ object MultiWayJoin {
       currentTrans = nextTrans
     }
     ans = ans ++ visitedStates.filter(v=>finalState.contains(v._1._2)&&v._2._2==0L).map(v=>(v._2._1,v._1._1)).collect()
-    val endTime = System.currentTimeMillis
 //      ans.map(v=>println("vertex reached!!! "+v))
     println("number of pairs : "+ans.size)
-    println("time : "+(endTime-startTime))
     println("-------------------------------------------------------------")
     ans
   }
   def main(args:Array[String]){
       path = args(0)
       tableName = args(1)
+      var maxt = Long.MinValue
+      var mint = Long.MaxValue
+      var sumt = 0L
       val sparkMaster = args(2)
       val histogram = args(4)
       val sparkConf = new SparkConf().setAppName("Multiway Join : "+path+" "+tableName).setMaster(sparkMaster)
       val sc = new SparkContext(sparkConf)
-      val asn = run(sc,args(3).toInt,histogram)
+      val files = sc.wholeTextFiles(path).map(_._1).collect()
+//      files.foreach(println)
+      files.map(v=>{
+         path = v
+         val startTime = System.currentTimeMillis
+         val asn = run(sc,args(3).toInt,histogram) 
+         val endTime = System.currentTimeMillis
+         val t = (endTime-startTime)
+         sumt = sumt + t
+         if(t>maxt) maxt = t
+         if(t<mint) mint = t
+         println("time : "+t)
+      })
+      println("maxt : ",maxt)
+      println("mint : ",mint)
+      println("avgt : ",sumt/files.size)
       
 //      val files = new File("/home/crazydog/ALIBABA/query/random-recursive/empty-result/")
 //                  .list

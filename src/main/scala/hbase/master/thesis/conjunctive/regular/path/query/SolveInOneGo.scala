@@ -18,7 +18,7 @@ object SolveInOneGo {
   case class State(startid : Long,srcid : Long, edge : Edge[String])
    def run(sc:SparkContext,workerNum:Int):Set[((String,String),Long)] = {
     println("------------------------------start"+path+"--------------------------")
-    val auto = GraphReader.automata(sc,path)
+    val auto = GraphReader.automata(sc,path,workerNum)
     val automata = auto.edges
     val finalState = HashSet(auto.vertices.count().toLong)
     val startTime = System.currentTimeMillis 

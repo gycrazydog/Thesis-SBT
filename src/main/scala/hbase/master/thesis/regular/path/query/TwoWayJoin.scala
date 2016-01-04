@@ -19,10 +19,9 @@ object TwoWayJoin {
   )
   def run(sc:SparkContext,workerNum:Int):Set[(String,String)] = {
       println("------------------------------start"+path+" "+tableName+"--------------------------")
-    val auto = GraphReader.automata(sc,path)
+    val auto = GraphReader.automata(sc,path,workerNum)
     val automata = auto.edges
     val finalState = auto.vertices.filter(v=>v._2=="final").map(v=>v._1).collect().toSet
-    val startTime = System.currentTimeMillis 
     var ans : Set[(String,String)] = new HashSet()
     var currentTrans = automata.filter(e=>e.srcId==0L)
     val labelset = currentTrans.collect.map(v=>v.attr).toSet
@@ -81,22 +80,35 @@ object TwoWayJoin {
         size = currentStates.count()
         println("finishing calculating currentStates!")
       }
-      val endTime = System.currentTimeMillis
       //ans.map(v=>println("vertex reached!!! "+v))
       println("number of pairs : "+ans.size)
-      println("time : "+(endTime-startTime))
       println("-------------------------------------------------------------")
       ans
   }
   def main(args:Array[String]){
       path = args(0)
       tableName = args(1)
+      var maxt = Long.MinValue
+      var mint = Long.MaxValue
+      var sumt = 0L
       val sparkMaster = args(2)
       val sparkConf = new SparkConf().setAppName("Two Way Join : "+path+" "+tableName).setMaster(sparkMaster)
       val sc = new SparkContext(sparkConf)
-      val asn = run(sc,args(3).toInt) 
-      for(x <- 1 to 10){
-         
-      }
+      val files = sc.wholeTextFiles(path).map(_._1).collect()
+//      files.foreach(println)
+      files.map(v=>{
+         path = v
+         val startTime = System.currentTimeMillis
+         val asn = run(sc,args(3).toInt) 
+         val endTime = System.currentTimeMillis
+         val t = (endTime-startTime)
+         sumt = sumt + t
+         if(t>maxt) maxt = t
+         if(t<mint) mint = t
+         println("time : "+t)
+      })
+      println("maxt : ",maxt)
+      println("mint : ",mint)
+      println("avgt : ",sumt/files.size)
   }
 }
