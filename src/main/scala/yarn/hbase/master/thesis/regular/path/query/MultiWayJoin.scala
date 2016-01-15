@@ -1,4 +1,4 @@
-package hbase.master.thesis.regular.path.query
+package yarn.hbase.master.thesis.regular.path.query
 import unicredit.spark.hbase._
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
@@ -16,10 +16,7 @@ import scala.io.Source
 object MultiWayJoin {
   var path = "";
   var tableName = "testgraph";
-  implicit val config = HBaseConfig(
-    "hbase.rootdir" -> "hdfs://hadoop-m:8020/hbase",
-    "hbase.zookeeper.quorum" -> "hadoop-m"
-  )
+  implicit val config = HBaseConfig()
   def genKeys(curLevel : Int,buckets : Array[Int],curKeys : Array[Int], varNum : Int) : Array[Array[Int]] = {
     var temp : List[Array[Int]]= List()
     if(curLevel < varNum){
@@ -145,9 +142,8 @@ object MultiWayJoin {
       var zerot = 0L
       var zerocount = 0
       var sumt = 0L
-      val sparkMaster = args(2)
-      val histogram = args(4)
-      val sparkConf = new SparkConf().setAppName("Multiway Join : "+path+" "+tableName).setMaster(sparkMaster)
+      val histogram = args(3)
+      val sparkConf = new SparkConf().setAppName("Multiway Join : "+path+" "+tableName)
       val sc = new SparkContext(sparkConf)
       val files = new File(path).listFiles
       println("query files number : ",files.length)
@@ -155,7 +151,7 @@ object MultiWayJoin {
       files.map(v=>{
          path = v.toString
          val startTime = System.currentTimeMillis
-         val asn = run(sc,args(3).toInt,histogram) 
+         val asn = run(sc,args(2).toInt,histogram) 
          val endTime = System.currentTimeMillis
          val t = (endTime-startTime)
          sumt = sumt + t

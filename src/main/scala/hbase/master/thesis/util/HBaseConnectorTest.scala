@@ -15,19 +15,22 @@ import scala.collection.mutable.ListBuffer
 import org.apache.hadoop.conf.Configuration;
 
 import org.apache.hadoop.hbase.HBaseConfiguration;
-import org.apache.hadoop.hbase.util.Bytes;
 
 import org.apache.hadoop.hbase.client.HTable;
 import org.apache.hadoop.hbase.client.Result;
 import org.apache.hadoop.hbase.client.ResultScanner;
 import org.apache.hadoop.hbase.client.Scan;
 
+import org.apache.hadoop.hbase.client.HBaseAdmin
+import org.apache.hadoop.hbase.HTableDescriptor
+import org.apache.hadoop.hbase.HColumnDescriptor
+
 
 object HBaseConnectorTest {
   var tableName = ""
   implicit val config = HBaseConfig(
-    "hbase.rootdir" -> "hdfs://hadoop-m:8020/hbase",
-    "hbase.zookeeper.quorum" -> "hadoop-m"
+    "hbase.rootdir" -> "hdfs://hathi-surfsara/apps/hbase/data",
+    "hbase.zookeeper.quorum" -> "head07.hathi.surfsara.nl,head09.hathi.surfsara.nl,head11.hathi.surfsara.nl"
   )
   def solveAndMerge(sc: SparkContext) = {
     val startTime = System.currentTimeMillis 
@@ -77,11 +80,11 @@ object HBaseConnectorTest {
   }
   def main(args:Array[String]) = {
     tableName = args(0)
-    val sparkConf = new SparkConf().setAppName("HBaseTest : ").setMaster("local[3]")
+    val sparkConf = new SparkConf().setAppName("HBaseTest : ")
     val sc = new SparkContext(sparkConf)
-    println(config.get.get("hbase.zookeeper.quorum"))
+//    println(config.get.get("hbase.zookeeper.quorum"))
 //    simpleTest(sc)
-    solveInOneGo(sc)
+//    solveInOneGo(sc)
 //    multipleScan(sc)
 //    var rowranges = ListBuffer(new MultiRowRangeFilter.RowRange("a000002",true,"a000010",true),new MultiRowRangeFilter.RowRange("a000012",true,"a000020",true))
 //    var multiRowFilter = new MultiRowRangeFilter(rowranges.asJava)
@@ -90,6 +93,15 @@ object HBaseConnectorTest {
 //    )
 //    val rdd = sc.hbase[String]("test",columns,multiRowFilter)
 //    rdd.collect().foreach(println)
-
+    val admin = new HBaseAdmin(config.get)
+    if(false == admin.tableExists(tableName)){
+        val splitKeys = List.range(1, 16).map(v=>Bytes.toBytes(('a'.toInt+v).toChar+"000000"))
+                                                    .toArray
+        val tableDescriptor = new HTableDescriptor(Bytes.toBytes(tableName))
+        tableDescriptor.addFamily(new HColumnDescriptor("to"))
+        tableDescriptor.addFamily(new HColumnDescriptor("from"))
+        tableDescriptor.addFamily(new HColumnDescriptor("property"))
+        admin.createTable(tableDescriptor, splitKeys)
+    }
   }
 }

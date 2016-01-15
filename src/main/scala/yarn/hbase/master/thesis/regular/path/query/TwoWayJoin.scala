@@ -1,4 +1,4 @@
-package hbase.master.thesis.regular.path.query
+package yarn.hbase.master.thesis.regular.path.query
 import unicredit.spark.hbase._
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
@@ -12,13 +12,10 @@ import java.io._
 import scala.io.Source
 import org.apache.spark.graphx.PartitionStrategy._
 import hbase.master.thesis.util.GraphReader
-object TwoWayJoin {
+object TwoWayJoin{
   var path = "";
   var tableName = "testgraph";
-  implicit val config = HBaseConfig(
-    "hbase.rootdir" -> "hdfs://hadoop-m:8020/hbase",
-    "hbase.zookeeper.quorum" -> "hadoop-m"
-  )
+  implicit val config = HBaseConfig()
   def run(sc:SparkContext,workerNum:Int):Set[(String,String)] = {
       println("------------------------------start"+path+" "+tableName+"--------------------------")
     val auto = GraphReader.automata(sc,path,workerNum)
@@ -97,8 +94,7 @@ object TwoWayJoin {
       var zerot = 0L
       var zerocount = 0
       var sumt = 0L
-      val sparkMaster = args(2)
-      val sparkConf = new SparkConf().setAppName("Two Way Join : "+path+" "+tableName).setMaster(sparkMaster)
+      val sparkConf = new SparkConf().setAppName("Two Way Join : "+path+" "+tableName)
       val sc = new SparkContext(sparkConf)
       val files = new File(path).listFiles
       println("query files number : ",files.length)
@@ -106,7 +102,7 @@ object TwoWayJoin {
       files.map(v=>{
          path = v.toString
          val startTime = System.currentTimeMillis
-         val asn = run(sc,args(3).toInt) 
+         val asn = run(sc,args(2).toInt) 
          val endTime = System.currentTimeMillis
          val t = (endTime-startTime)
          sumt = sumt + t

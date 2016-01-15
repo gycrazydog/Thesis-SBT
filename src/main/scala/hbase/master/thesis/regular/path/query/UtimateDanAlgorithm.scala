@@ -13,13 +13,13 @@ import java.io._
 import scala.io.Source
 import hbase.master.thesis.util.GraphReader
 import org.apache.spark.graphx.PartitionStrategy._
-object DanAlgorithm {
+object UtimateDanAlgorithm {
   case class SrcId(srcid : Long) 
   case class Complex(srcid: Long,auto: Edge[String],edge: Edge[String])
   var path = "";
   var tableName = "testgraph";
   var sparkMaster = "";
-    implicit val config = HBaseConfig(
+  implicit val config = HBaseConfig(
     "hbase.rootdir" -> "hdfs://hadoop-m:8020/hbase",
     "hbase.zookeeper.quorum" -> "hadoop-m"
   )
@@ -36,43 +36,51 @@ object DanAlgorithm {
     val auto = GraphReader.automata(sc,path,workerNum)
     val automata = auto.edges
     val finalState = auto.vertices.filter(v=>v._2=="final").map(v=>v._1).collect().toSet
+    var excludeTrans = automata.filter(e=>e.srcId!=0L)
+    val excludeMap = excludeTrans.map(k=>(k.attr,k)).groupByKey().collect().toMap
     var currentTrans = automata.filter(e=>e.srcId==0L)
-    val labelset = currentTrans.map(v=>v.attr).collect.toSet
-    val inputNodes = sc.hbase[String](tableName,Set("to"))
-                        .filter(v=>inputnodes.contains(v._1))
-                        .flatMap(v=>v._2.values.map(k=>(v._1,k)))
-                        .flatMap(v=>v._2.map(k=>(v._1,k._1,k._2)))
-                        .flatMap(v=>v._3.split(":").map(k=>(v._2,(v._1,k))))
+    val currentMap = currentTrans.map(e=>(e.attr,e)).groupByKey().collect().toMap
+    val labelset = currentMap.keys.toSet
+    columns = Map(
+      "to"   ->  excludeMap.keys.toSet
+    )
+    val inputNodes = sc.hbase[String](tableName,columns)
+                       .filter(v=>inputnodes.contains(v._1))
+                       .flatMap(v=>v._2.values.map(k=>(v._1,k)))
+                       .flatMap(v=>v._2.map(k=>(v._1,k._1,k._2)))
+                       .flatMap(v=>v._3.split(":").map(k=>(v._2,(v._1,k))))
     columns = Map(
       "to"   -> labelset    
     )
     val startNodes = sc.hbase[String](tableName,columns)
                         .flatMap(v=>v._2.values.map(k=>(v._1,k)))
                         .flatMap(v=>v._2.map(k=>(v._1,k._1,k._2)))
-                        .flatMap(v=>v._3.split(":").map(k=>(v._2,(v._1,k))))               
-    val inputStates = inputNodes.join(automata.filter(e=>e.srcId!=0L).map(e=>(e.attr,e)))
-                         .map(f=>((f._2._1._2,f._2._2.dstId),(f._2._1._1,f._2._2.srcId)))
-                         .cache()
-    val startStates = startNodes.join(currentTrans.map(e=>(e.attr,e))) 
-                         .map(f=>((f._2._1._2,f._2._2.dstId),(f._2._1._1,f._2._2.srcId)))
-                                      .cache()
+                        .flatMap(v=>v._3.split(":").map(k=>(v._2,(v._1,k))))
+            
+    val inputStates = inputNodes
+                       .flatMap(v=>excludeMap.getOrElse(v._1, List()).toList.map(e=>( (v._2._2,e.dstId),(v._2._1,e.srcId) )))
+                       .cache()
+    val startStates = startNodes
+                       .flatMap(v=>currentMap.getOrElse(v._1, List()).toList.map(e=>( (v._2._2,e.dstId),(v._2._1,e.srcId) )))
+                       .cache()
     println("startStates number : "+startStates.count())
     println("inputStates number : "+inputStates.count())
-    var currentStates = inputStates.union(startStates)
-                        .coalesce(workerNum).cache()
+//    println("start states partition number : ",startStates.partitions.size)
+//    startStates.foreachPartition(v=>println("start state each partition : ",v.size))
+//    println("input states partition number : ",inputStates.partitions.size)
+//    inputStates.foreachPartition(v=>println("input state each partition : ",v.size))
+    var currentStates = inputStates.zipPartitions(startStates,true){(iter1,iter2)=>iter1++iter2}.cache
     currentTrans = automata
-//    println("the inputnode number==11 : ",currentStates.filter(f=>f._1.srcId==3&&f._1.dstId==4
-//                                                        &&f._1.attr=="6"
-//                                                        &&f._2._3.split("-")(0).toInt==4889)
-//                                                       .count()
-//                                                       )
-    //currentStates.collect().foreach(println("init state : ",_))
-    var visitedStates : RDD[((String, VertexId), (String, VertexId))] = sc.emptyRDD
+//    println("current states partition number : ",currentStates.partitions.size)
+//    currentStates.foreachPartition(v=>println("current state each partition : ",v.size))
+//    //currentStates.collect().foreach(println("init state : ",_))
+    var visitedStates : RDD[((String, VertexId), (String, VertexId))] = currentStates
     var size = currentStates.count()
     var i = 0
     while(size>0){
-      val nextTotalStates = visitedStates.union(currentStates).coalesce(workerNum)
+      val nextTotalStates = visitedStates.zipPartitions(currentStates,true){(iter1,iter2)=>(iter1++iter2).toSet.toIterator}.cache
       visitedStates = nextTotalStates
+      println("visited states : ",visitedStates.count)
       i = i+1
       println("iteration:"+i)
       println("currentStates : ",size)
@@ -83,25 +91,38 @@ object DanAlgorithm {
         masterStates = masterStates ++ currentStates.filter(f=>(inputnodes.contains(f._1._1))
                                                             || finalState.contains(f._1._2)
                                                             )
-                                                            .collect()                                         
+                                                            .collect()                                       
        //State transition     
         val nextCurrentTrans = currentTrans.map(v=>(v.dstId,v)).join(automata.map(v=>(v.srcId,v)))
                                 .map(v=>v._2._2)
-        currentTrans = nextCurrentTrans.distinct()
-        val labelset = currentTrans.map(v=>v.attr).distinct().collect().toSet
+        currentTrans = nextCurrentTrans.distinct
+        val labelMap = currentTrans.map(e=>(e.attr,e)).groupByKey().collect().toMap
+        val labelset = currentTrans.map(v=>v.attr).collect().toSet
         val columns = Map(
             "to"   -> labelset    
         )
+        val formerStates = currentStates.filter(f=>false==inputnodes.contains(f._1._1) ).mapPartitions(f=>{
+          val res = f.toList.groupBy(_._1)
+          res.map(v=>(v._1,v._2.map(k=>k._2))).toIterator
+        }, true)
         var nextEdges : RDD[((String,VertexId),(String,VertexId))] = sc.hbase[String](tableName, columns)
                        .flatMap(v=>v._2.values.map(k=>(v._1,k)))
                        .flatMap(v=>v._2.map(k=>(v._1,k._1,k._2)))
                        .flatMap(v=>v._3.split(":").map(k=>(v._2,(v._1,k))))
-                       .join(currentTrans.map(e=>(e.attr,e)))
-                       .map(f=>((f._2._1._1,f._2._2.srcId),(f._2._1._2,f._2._2.dstId)))
+                       .flatMap(v=>labelMap.getOrElse(v._1, List()).toList.map(e=>( (v._2._1,e.srcId),(v._2._2,e.dstId) )))
         val nextStates = nextEdges
-                        .join(currentStates.filter(f=>false==inputnodes.contains(f._1._1) ) )
-                        .map(v=>v._2)
-                        .subtract(visitedStates)
+                        .zipPartitions(formerStates,true)
+                                      {(iter1,iter2)=>{
+                                        val nextStates = iter1.toList     
+                                        val lastStates = iter2.toMap
+                                        val res = nextStates.flatMap(s=>lastStates.getOrElse(s._1, List()).map(v=>(s._2,v)))
+                                        res.toIterator
+                         }}
+                        .zipPartitions(visitedStates,true)
+                                      {(iter1,iter2)=>{  
+                                        val lastStates = iter2.toSet
+                                        iter1.toList.filter(p=>false==lastStates.contains(p)).toIterator
+                         }}
                         .cache()
         currentStates = nextStates
         size = currentStates.count()
@@ -110,9 +131,9 @@ object DanAlgorithm {
 //      val nextStates = currentStates.
     }
     println("masterStates : ",masterStates.size)
-    println("small fragments : ",masterStates.filter(v=>v._1._2-v._2._2==1&&false==finalState.contains(v._1._2)).size)
-    println("reached final state ",masterStates.filter(v=>finalState.contains(v._1._2)).size)
-    println("reached output node ",masterStates.filter(v=>inputnodes.contains(v._1._1)).size)
+//    println("small fragments : ",masterStates.filter(v=>v._1._2-v._2._2==1&&false==finalState.contains(v._1._2)).size)
+//    println("reached final state ",masterStates.filter(v=>finalState.contains(v._1._2)).size)
+//    println("reached output node ",masterStates.filter(v=>inputnodes.contains(v._1._1)).size)
     var ans : HashSet[(String,String)] = new HashSet()
     var visited : HashSet[((String,VertexId),(String,VertexId))] = new HashSet()
     var current = masterStates.filter(p=>p._2._2==0L)
@@ -170,5 +191,4 @@ object DanAlgorithm {
       println("hascount : ",hascount)
       println("avgt : ",sumt/files.size)
   }
-  
 }

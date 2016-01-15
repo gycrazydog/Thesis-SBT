@@ -5,11 +5,13 @@ import org.apache.spark.SparkConf
 import org.apache.spark._
 import org.apache.spark.graphx._
 import scala.collection.mutable.HashMap
+import java.io._
+import scala.io.Source
 // To make some of the examples work we will also need RDD
 import org.apache.spark.rdd.RDD
 object GraphReader {
   def automata(sc : SparkContext,path : String,workerNum: Int) : Graph[Any,String] = {
-     val rdd = sc.textFile(path, workerNum).cache()
+     val rdd = sc.parallelize(Source.fromFile(path).getLines().toList, workerNum).cache
      val max_id = rdd.filter(line=>line.split(" ")(0)!="final").map(line=>line.split(" ").dropRight(1).map(v=>v.toLong).max).max()
      val finalstates = rdd.filter(line=>line.split(" ")(0)=="final").map(line=>line.split(" ")(1).toLong).collect().toSet
      val temp = List.range(0L, max_id+1)

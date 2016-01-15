@@ -1,6 +1,6 @@
 name := "Thesis-hbase-spark"
 organization := "TUDELFT"
-version := "0.0.1"
+version := "1.0.0"
 scalaVersion := "2.10.5"
 libraryDependencies += "eu.unicredit" %% "hbase-rdd" % "0.6.0"
 libraryDependencies += "com.datastax.spark" %% "spark-cassandra-connector" % "1.2.1"
@@ -25,3 +25,4 @@ resolvers ++= Seq(
   "Cloudera repos" at "https://repository.cloudera.com/artifactory/cloudera-repos",
   "Cloudera releases" at "https://repository.cloudera.com/artifactory/libs-release"
 )
+assemblyOption in assembly := (assemblyOption in assembly).value.copy(includeScala = false, includeDependency = false)

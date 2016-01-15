@@ -21,10 +21,7 @@ object GraphWriter {
   var path = ""
   var partitionFile = ""
   var tableName = "testgraph";
-  implicit val config = HBaseConfig(
-    "hbase.rootdir" -> "hdfs://hadoop-m:8020/hbase",
-    "hbase.zookeeper.quorum" -> "hadoop-m"
-  )
+  implicit val config = HBaseConfig()
   def toHex(id : Int, partitionMap: Map[Int,Int]) : String = {
     ('a'.toInt+partitionMap.get(id).get).toChar+"%06d".format(id)
   }
@@ -95,9 +92,8 @@ object GraphWriter {
   def main(args:Array[String]) : Unit = {
     path  = args(0)
     partitionFile = args(1)
-    sparkMaster = args(2)
-    tableName = partitionFile.split("/").last
-    val sparkConf = new SparkConf().setAppName("GraphWriter").setMaster(sparkMaster)
+    tableName = "cgou:"+partitionFile.split("/").last
+    val sparkConf = new SparkConf().setAppName("GraphWriter")
     val sc = new SparkContext(sparkConf)
     
     writeGraph(sc)

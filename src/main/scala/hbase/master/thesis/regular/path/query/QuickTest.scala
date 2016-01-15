@@ -92,6 +92,10 @@ object QuickTest {
       tableName = args(1)
       var maxt = Long.MinValue
       var mint = Long.MaxValue
+      var hascount = 0
+      var hast = 0L
+      var zerot = 0L
+      var zerocount = 0
       var sumt = 0L
       val writer = new PrintWriter(new File(path+"_pairs_count"))  
       val sparkMaster = args(2)
@@ -107,12 +111,18 @@ object QuickTest {
          val endTime = System.currentTimeMillis
          val t = (endTime-startTime)
          sumt = sumt + t
+         if(asn == 0) { zerot = zerot + t; zerocount = zerocount+1; }
+         else { hast = hast + t; hascount = hascount + 1; }
          if(t>maxt) maxt = t
          if(t<mint) mint = t
          println("time : "+t)
       })
       println("maxt : ",maxt)
       println("mint : ",mint)
+      println("zerot : ",zerot)
+      println("zerocount : ",zerot/zerocount)
+      println("hast : ",hast/hascount)
+      println("hascount : ",hascount)
       println("avgt : ",sumt/files.size)
       writer.close()
   }
