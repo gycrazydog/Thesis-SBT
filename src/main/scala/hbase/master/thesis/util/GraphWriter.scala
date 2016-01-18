@@ -46,14 +46,22 @@ object GraphWriter {
     val partitionNum = partitionMap.values.max+1
     println(partitionNum)
     val admin = new HBaseAdmin(config.get)
+    println("zookeeper quorum : "+config.get.get("hbase.zookeeper.quorum"))
+    println("hbase.master.kerberos.principal: "+config.get.get("hbase.master.kerberos.principal"))
+    println("hbase.rootdir: "+config.get.get("hbase.rootdir"))
+    println("hbase.regionserver.kerberos.principal: "+config.get.get("hbase.regionserver.kerberos.principal"))
+    println("initilized admin!")
     if(false == admin.tableExists(tableName)){
+        println("table "+tableName+" doesn't exist!")
         val splitKeys = List.range(1, partitionNum).map(v=>Bytes.toBytes(('a'.toInt+v).toChar+"000000"))
                                                     .toArray
         val tableDescriptor = new HTableDescriptor(Bytes.toBytes(tableName))
         tableDescriptor.addFamily(new HColumnDescriptor("to"))
         tableDescriptor.addFamily(new HColumnDescriptor("from"))
         tableDescriptor.addFamily(new HColumnDescriptor("property"))
+        println("before creating!")
         admin.createTable(tableDescriptor, splitKeys)
+        println("finish creating!")
     }
     val rdd : RDD[(String, Map[String, String])] = sc.textFile(path, partitionNum).map(line=>{
                 val edge = line.split(" ")
@@ -67,14 +75,14 @@ object GraphWriter {
     rdd.toHBase(tableName, "to")
     val rdd1 : RDD[(String, Map[String, String])] = sc.textFile(path, partitionNum).map(line=>{
                 val edge = line.split(" ")
-                ( (toHex(nodeMap.get(edge(1).toInt).get,partitionMap),edge(2)) 
+                ( (toHex(nodeMap.get(edge(1).toInt).get,partitionMap),edge(2)+"-")
                     ,toHex(nodeMap.get(edge(0).toInt).get,partitionMap))
               } )
               .reduceByKey((a, b) => a+':'+b).map(v=>(v._1._1,(v._1._2,v._2)))
               .groupBy(_._1)
               .map(v=>(v._1,v._2.map(k=>k._2).toMap))
 //              .cache
-    rdd1.toHBase(tableName, "from")
+    rdd1.toHBase(tableName, "to")
     val col = Map(
       "inputnode" -> "true"
     )

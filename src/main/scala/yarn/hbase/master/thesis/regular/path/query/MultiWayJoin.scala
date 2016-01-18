@@ -70,8 +70,8 @@ object MultiWayJoin {
                           states.map(v=>( v, ( (f._2._1._1,f._2._2.srcId) , (f._2._1._2,f._2._2.dstId)) ) )
                         })
                         .repartition(workerNum)
-                        .cache()
-    println("current states size : "+currentStates.count)
+                        
+//    println("current states size : "+currentStates.count)
     val newStates = currentStates.flatMap(v=>{
       var var1 = v._1.toInt-1
       var var2 = v._1.toInt
@@ -79,8 +79,8 @@ object MultiWayJoin {
 //      println("key2 : "+Math.abs(v._2._2.hashCode())%as(var2))
       localKeys.value.filter(key=>key(var1)==Math.abs(v._2._1.hashCode())%as(var1)&&key(var2)==Math.abs(v._2._2.hashCode())%as(var2))
       .map(key=>(key.mkString("+"),v))
-    }).groupByKey().cache()
-    println("size of newStates : "+newStates.map(v=>(v._1,v._2.size)).reduceByKey(_+_).count )
+    }).groupByKey()
+//    println("size of newStates : "+newStates.map(v=>(v._1,v._2.size)).reduceByKey(_+_).count )
 //    newStates.collect().foreach(println("newStates ",_))
     val temprdd = newStates.map(v=>{
       val masterStates = v._2.toList.groupBy(_._1).mapValues(v=>v.map(k=>k._2))
@@ -103,14 +103,14 @@ object MultiWayJoin {
     var continuePoints = currentTrans.map(e=>e.srcId).collect.toSet
     var visitedStates : RDD[((String,VertexId),(String,VertexId))] = temprdd.flatMap(f=>f).cache
 //        visitedStates.collect.foreach(println("visited state : ",_))
-    println("visited states size :"+visitedStates.count())
+//    println("visited states size :"+visitedStates.count())
     var continueStates = visitedStates.filter(f=>continuePoints.contains(f._1._2)).cache()
-    println("continue states size : "+continueStates.count())
+//    println("continue states size : "+continueStates.count())
     while(continueStates.count()>0){
       val nextEdges = allEdges.join(currentTrans.map(e=>(e.attr,e)))
                         .map(f=> ((f._2._1._1,f._2._2.srcId) , (f._2._1._2,f._2._2.dstId)) )
                         .repartition(workerNum)
-                        .cache()
+                        
       val nextStates = nextEdges
                         .join(continueStates)
                         .map(v=>v._2)
