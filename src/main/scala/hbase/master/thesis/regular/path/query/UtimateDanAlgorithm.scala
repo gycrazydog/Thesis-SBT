@@ -59,12 +59,12 @@ object UtimateDanAlgorithm {
             
     val inputStates = inputNodes
                        .flatMap(v=>excludeMap.getOrElse(v._1, List()).toList.map(e=>( (v._2._2,e.dstId),(v._2._1,e.srcId) )))
-                       .cache()
+//                       .cache()
     val startStates = startNodes
                        .flatMap(v=>currentMap.getOrElse(v._1, List()).toList.map(e=>( (v._2._2,e.dstId),(v._2._1,e.srcId) )))
-                       .cache()
-    println("startStates number : "+startStates.count())
-    println("inputStates number : "+inputStates.count())
+//                       .cache()
+//    println("startStates number : "+startStates.count())
+//    println("inputStates number : "+inputStates.count())
 //    println("start states partition number : ",startStates.partitions.size)
 //    startStates.foreachPartition(v=>println("start state each partition : ",v.size))
 //    println("input states partition number : ",inputStates.partitions.size)
@@ -78,9 +78,9 @@ object UtimateDanAlgorithm {
     var size = currentStates.count()
     var i = 0
     while(size>0){
-      val nextTotalStates = visitedStates.zipPartitions(currentStates,true){(iter1,iter2)=>(iter1++iter2).toSet.toIterator}.cache
+      val nextTotalStates = visitedStates.zipPartitions(currentStates,true){(iter1,iter2)=>(iter1++iter2).toSet.toIterator}
       visitedStates = nextTotalStates
-      println("visited states : ",visitedStates.count)
+//      println("visited states : ",visitedStates.count)
       i = i+1
       println("iteration:"+i)
       println("currentStates : ",size)

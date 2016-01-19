@@ -75,7 +75,7 @@ object DanAlgorithm {
     var size = currentStates.count()
     var i = 0
     while(size>0){
-      val nextTotalStates = visitedStates.zipPartitions(currentStates,true){(iter1,iter2)=>(iter1++iter2).toSet.toIterator}.cache
+      val nextTotalStates = visitedStates.zipPartitions(currentStates,true){(iter1,iter2)=>(iter1++iter2).toSet.toIterator}
       visitedStates = nextTotalStates
 //      println("visited states : ",visitedStates.count)
       i = i+1

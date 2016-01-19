@@ -15,6 +15,7 @@ object JabeJa_Hybrid {
   var tableName = "testgraph";
   var keyspace = "";
   var colorNum = 0
+  var round = 350
   var color: Array[Int] = Array()
   
   def swap(cur : Int,neigh : Int) :Unit = {
@@ -60,7 +61,7 @@ object JabeJa_Hybrid {
                                                    .map(x=>x.dstId).toList.removeDuplicates.size+"\n")
   var currentCrossEdgesNum = edges.filter(v=>color(v.dstId.toInt)!=color(v.srcId.toInt)).size
   val r = scala.util.Random
-  for(counter <- 0 to 350){
+  for(counter <- 0 to round){
     for(currentNode <- 0 to nodes-1){
       var bestNeibour = -1;
       var leastCE = -1.0;
@@ -137,10 +138,10 @@ object JabeJa_Hybrid {
   }
   def main(args:Array[String]) = {
     path  = args(0)
-    sparkMaster = args(1)  
-    val output_path = args(2)
-    colorNum = args(3).toInt
-    val sparkConf = new SparkConf().setAppName("JabeJa : ").setMaster(sparkMaster)
+    val output_path = args(1)
+    colorNum = args(2).toInt
+    round = args(3).toInt
+    val sparkConf = new SparkConf().setAppName("JabeJa : ")
     val sc = new SparkContext(sparkConf)
 //    JabeJa_Local
 //    JabeJa_Random

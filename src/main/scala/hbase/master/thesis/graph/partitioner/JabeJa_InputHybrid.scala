@@ -6,13 +6,14 @@ import org.apache.spark.graphx.PartitionStrategy._
 import java.io._
 import scala.collection.mutable.HashMap
 object JabeJa_InputHybrid {
-  var TEMPERATURE = 2.0
-  val TEMPERATUREDelta = 0.01
+  var TEMPERATURE = 20.0
+  val TEMPERATUREDelta = 0.1
   var sparkMaster = ""
   var cassandraMaster = ""
   var path = ""
   var tableName = "testgraph";
   var colorNum = 0
+  var round = 350
   var color: Array[Int] = Array()
   var toNeighbors : Map[Int,Set[Int]] = Map.empty
   var fromNeighbors : Map[Int,Set[Int]] = Map.empty
@@ -49,6 +50,7 @@ object JabeJa_InputHybrid {
     }
     initColor ++= List.fill(nodes-nodes/colorNum*(colorNum-1))(colorNum-1)
     color = scala.util.Random.shuffle(initColor).toArray
+//    color = initColor.toArray
     var InDegrees : Array[Int] = Array.ofDim[Int](nodes)
     fromNeighbors.foreach(f=>{
       InDegrees(f._1)=f._2.size
@@ -59,7 +61,7 @@ object JabeJa_InputHybrid {
     var reduced = 0
     writer.write(List.range(0,nodes).filter(isInputNode(_,fromNeighborColors,InDegrees)).size+"\n")
     println("inputnode start input nodes : " + List.range(0,nodes).filter(isInputNode(_,fromNeighborColors,InDegrees)).size )
-    for(counter <- 0 to 350){
+    for(counter <- 0 to round){
       for(currentNode <- 0 to nodes-1){
         //      val currentNode = r.nextInt().abs%nodes
         var bestNeibour = -1;
@@ -95,7 +97,7 @@ object JabeJa_InputHybrid {
          })
          if(bestNeibour==(-1)){//No local swap, try 30 random nodes
                 var RandomNeighbors : Set[Int]= Set()
-                for(x<-1 to 30){
+                for(x<-1 to 5){
                    var newNeighbor = scala.util.Random.nextInt.abs%nodes
                    if(newNeighbor<0) newNeighbor = newNeighbor+nodes
                    while(color(currentNode)==color(newNeighbor)||RandomNeighbors.contains(newNeighbor)==true) {  
@@ -149,21 +151,25 @@ object JabeJa_InputHybrid {
            else TEMPERATURE = 1
          }
         }
-        writer.write("round : "+counter+"current input nodes : " + List.range(0,nodes).filter(isInputNode(_,fromNeighborColors,InDegrees)).size+"\n")
-        println("round : "+counter+" current cross edges : " + edges.filter( e=>color(e.dstId.toInt)!=color(e.srcId.toInt)).size )
-        println("current input nodes : " + List.range(0,nodes).filter(isInputNode(_,fromNeighborColors,InDegrees)).size)
+        val in = List.range(0,nodes).filter(isInputNode(_,fromNeighborColors,InDegrees)).size
+        val ce = edges.filter( e=>color(e.dstId.toInt)!=color(e.srcId.toInt)).size
+        writer.write(counter+","+in+"," + ce+"\n")
+        println("round : "+counter+" current cross edges : " + ce )
+        println("current input nodes : " + in)
       }
       writer.close()
+      println("final input nodes : " + edges.filter( e=>color(e.dstId.toInt)!=color(e.srcId.toInt) )
+                                                   .map(x=>x.dstId).toList.removeDuplicates.size)
       println("final input nodes : " + List.range(0,nodes).filter(isInputNode(_,fromNeighborColors,InDegrees)).size)
       println("final cross edges : " + edges.filter( e=>color(e.dstId.toInt)!=color(e.srcId.toInt)).size )
     }
 
   def main(args:Array[String]) = {
-      path  = args(0)
-      sparkMaster = args(1)  
-      val output_path = args(2)
-      colorNum = args(3).toInt
-      val sparkConf = new SparkConf().setAppName("JabeJa : ").setMaster(sparkMaster)
+      path  = args(0) 
+      val output_path = args(1)
+      colorNum = args(2).toInt
+      round = args(3).toInt
+      val sparkConf = new SparkConf().setAppName("JabeJa : ")
       val sc = new SparkContext(sparkConf)
   //    JabeJa_Local
   //    JabeJa_Random
